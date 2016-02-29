@@ -1,7 +1,47 @@
+pulse2 (3.0.2-17) unstable; urgency=low
+  * Various fixes ( 3ff96f0ac00e38e46e477a6b0ab9a9cad49ce608 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Sun, 21 Jan 2016 09:00:11 +0100
+
+pulse2 (3.0.2-16) unstable; urgency=low
+  * Install pulse2-synch-masters binary ( 9154822ae8063b08f37f474a59105d5330ef89fb )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Sun, 21 Jan 2016 09:00:11 +0100
+
+pulse2 (3.0.2-15) unstable; urgency=low
+  * pulse2-synch-masters agent Fixes ( 72eba8686cdb938e1d8c3094846c8ca4082e2c28 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Sun, 21 Jan 2016 09:00:11 +0100
+
+pulse2 (3.0.2-14) unstable; urgency=low
+  * Add pulse2-synch-masters agent ( e6782d8cfc130dbfe59dc5243fce8f721f9a5cde )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Tue, 19 Jan 2016 09:00:11 +0100
+
+pulse2 (3.0.2-13) unstable; urgency=low
+  * Fix pulse2-cm removal ( f71ea4a6b0f6aeece809f767ec8a5d6b65fe9102 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Tue, 16 Jan 2016 09:00:11 +0100
+
+pulse2 (3.0.2-12) unstable; urgency=low
+  * Completly remove pulse2-cm  ( 506b6ef5c7f743d5b09d2305927807fc02c842b5 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Mon, 15 Jan 2016 09:00:11 +0100
+
+pulse2 (3.0.2-11) unstable; urgency=low
+  * Bugfixes  ( 9fddc697e3b7b5207d853afe0711eda83b1436a7 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Mon, 15 Jan 2016 09:00:11 +0100
+
+pulse2 (3.0.2-10) unstable; urgency=low
+  * Bugfixes ( multicast, menus, ... ) ( 8d8908e1f4555d751b15db1f561e620514f11b3d )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 13 Jan 2016 17:00:11 +0100
+
 pulse2 (3.0.2-9) unstable; urgency=low
   * Bugfixes ( multicast, menus, ... ) ( 8d8908e1f4555d751b15db1f561e620514f11b3d )
 
- -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 9 Feb 2016 17:00:11 +0100
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 13 Jan 2016 17:00:11 +0100
 
 pulse2 (3.0.2-8) unstable; urgency=low
   * Bugfixes ( multicast, menus, ... )
