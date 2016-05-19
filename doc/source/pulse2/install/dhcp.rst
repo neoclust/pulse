@@ -14,7 +14,7 @@ For example with dhcp3-server in /etc/dhcp3/dhcpd.conf::
          option routers 192.168.0.2; # default gateway
          pool {
              range 192.168.0.170 192.168.0.180;
-             filename "/bootloader/pxe_boot";
+             filename "/bootloader/pxelinux.0";
             next-server 192.168.0.237;
          }
     }
@@ -23,4 +23,4 @@ For example with dhcp3-server in /etc/dhcp3/dhcpd.conf::
 
 You can find an example file for dhcp3 server in or repository_.
 
-.. _repository: https://github.com/mandriva-management-console/mmc/blob/master/pulse2/services/contrib/dhcp/dhcpd.conf 
+.. _repository: https://github.com/mandriva-management-console/mmc/blob/master/pulse2/services/contrib/dhcp/dhcpd.conf

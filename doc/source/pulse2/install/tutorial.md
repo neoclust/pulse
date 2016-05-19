@@ -119,7 +119,7 @@ Enable mmc in your web server.
 There is a sample conf file for Apache2, so you can do:
 
     # ln -s /etc/mmc/apache/mmc.conf /etc/apache2/conf.d/
-    
+
 Modify your PHP configuration to permit larger package upload in Pulse²
 Edit `/etc/php5/apache2/php.ini` file
 And change this directive
@@ -191,7 +191,7 @@ You can install **GLPI** by using debian package (0.83.31 in Wheezy) :
 
     # apt-get install glpi
 
-**Or** 
+**Or**
 
 Download a more updated copy from **GLPI** website and use [this guide](http://www.glpi-project.org/spip.php?article61) to install **or** the following tutorial (url below could be obsolete).
 
@@ -213,7 +213,7 @@ Main parameters :
  - Database host : localhost
  - Database user/pass : root/yourpass
  - Database name : glpi
- 
+
 After installation, delete installation file, set config file permissions and **GLPI** change default passwords (from admin panel) :
 
     # rm /var/www/glpi/install/install.php
@@ -236,7 +236,7 @@ Add glpi directory to apache defaut site, edit `/etc/apache2/sites-available/def
                 allow from all
         </Directory>
 
-Restart Apache 
+Restart Apache
 
     # service apache2 restart
 
@@ -261,7 +261,7 @@ Download plugin archive, extract, move to **GLPI** plugins folder and change rig
  - Connect to **GLPI**
  - Go in the menu ***Setup*** > ***Plugins***
  - Install the plugin **FusionInventory**
- - Activate **FusionInventory** 
+ - Activate **FusionInventory**
  - Go in the menu ***Administration*** > ***Entities*** > ***Root entity*** > ***tab FusionInventory*** to set the **Service URL**, here http://pulse.localdomain/glpi.
 
 #### 4.3.3 Web services for GLPI
@@ -278,7 +278,7 @@ This plugin is mandatory to use wth Pulse²
 - Connect to **GLPI**
 - Go in the menu ***Setup*** > ***Plugins***
 - Install the plugin **Web Services**
-- Activate **Web Services** 
+- Activate **Web Services**
 
 Test **Web Services** access
 
@@ -487,7 +487,7 @@ Install the generated agent on the computers to manage.
   - pulse2-agents-installer-nordp-0.1-7.noarch.rpm
   - pulse2-agents-installer-suse-0.1-7.noarch.rpm
   - pulse2-agents-installer-suse-nordp-0.1-7.noarch.rpm
- 
+
 #### 4.5.2 Create debian repository (optional)
 
 For debian-based client, you can generate a repository on the pulse server, that you can add to the client */etc/apt/sources.list*.
@@ -501,12 +501,12 @@ If you should create entropy use `ls -R /` command in another console.
 #### 4.5.3 Generate pulse-update-client (to manage Windows Update for Windows computers)
 **FROM A WINDOWS DESKTOP CLIENT**
 
-Install 
+Install
 
  - **Python 2.7** : https://www.python.org/ftp/python/2.7.10/python-2.7.10.amd64.msi
  - **cx_Freeze pour python 2.7** : https://pypi.python.org/packages/2.7/c/cx_Freeze/cx_Freeze-4.3.4.win-amd64-py2.7.exe#md5=5a11ce9c92572af5a4efa612a8fa9d5d
  - **pywin32 pour python 2.7** : http://heanet.dl.sourceforge.net/project/pywin32/pywin32/Build%20219/pywin32-219.win-amd64-py2.7.exe
-    
+
 Download in a folder the last GIT version of MMC
 https://github.com/mandriva-management-console/mmc/archive/master.zip
 
@@ -551,7 +551,7 @@ Add this configuration
           # Apache >= 2.4
           #Require all granted
       </Directory>
-    
+
 >       <Directory /usr/share/doc/pulse2/>
           Options +Indexes
           AllowOverride None
@@ -588,7 +588,7 @@ At this time we haven't fully tested the GPT support for the Pulse² Imaging bac
 We recommend to install the **Pulse² Imaging backend** because it is more stable than the Clonezilla one.
 
 Install the Pulse² Imaging backend
- 
+
     # apt-get install pulse2-imaging-server
     # apt-get install pulse2-imaging-client
 
@@ -601,7 +601,7 @@ Install the Clonezilla backend
     # apt-get remove pulse2-imaging-server
     # apt-get remove pulse2-imaging-client
     # apt-get install pulse2-davos-client
-    
+
 To use Clonezilla backend you should check if the package-server.ini has the correct directive
 Add this directive to the `/etc/mmc/pulse2/package-server/package-server.ini.local` file to override the default one
 
@@ -633,14 +633,14 @@ Reload NFS server and check mount points
     /var/lib/pulse2/imaging/postinst *
     /var/lib/pulse2/imaging/computers *
 
-    
+
 If error : `clnt_create: RPC: Program not registered`
 
     # service rpcbind restart
     # service nfs-kernel-server restart
 
 > <i class="icon-info"></i>  If you are running Pulse² in an OpenVZ container, you must shutdown the container and activate the NFS support by typing this command in the host system (specify CT number)
-> 
+>
 > `vzctl set $CTID --feature nfsd:on --save`
 
 Notice about computer image
@@ -666,53 +666,53 @@ Edit `/etc/default/isc-dhcp-server`
 And put (replace IP range with yours)
 
 >     ###########################################
-    # This is a dhcpd sample file for Pulse 2 # 
-    ########################################### 
-    ddns-update-style ad-hoc; # mandatory since 3.0b2pl11 
-    
->     # When using a NAS, uses DHCP option 177 
-    option pulse2-nfs code 177 = text; 
-    
->     # PXE definitions 
-        option space PXE; 
-        option PXE.mtftp-ip code 1 = ip-address; 
-        option PXE.mtftp-cport code 2 = unsigned integer 16; 
-        option PXE.mtftp-sport code 3 = unsigned integer 16; 
-        option PXE.mtftp-tmout code 4 = unsigned integer 8; 
-        option PXE.mtftp-delay code 5 = unsigned integer 8; 
-        option PXE.discovery-control code 6 = unsigned integer 8; 
+    # This is a dhcpd sample file for Pulse 2 #
+    ###########################################
+    ddns-update-style ad-hoc; # mandatory since 3.0b2pl11
+
+>     # When using a NAS, uses DHCP option 177
+    option pulse2-nfs code 177 = text;
+
+>     # PXE definitions
+        option space PXE;
+        option PXE.mtftp-ip code 1 = ip-address;
+        option PXE.mtftp-cport code 2 = unsigned integer 16;
+        option PXE.mtftp-sport code 3 = unsigned integer 16;
+        option PXE.mtftp-tmout code 4 = unsigned integer 8;
+        option PXE.mtftp-delay code 5 = unsigned integer 8;
+        option PXE.discovery-control code 6 = unsigned integer 8;
         option PXE.discovery-mcast-addr code 7 = ip-address;
-        
->     # PXE boot following the PXE specs 
-    class "PXE" { 
-        match if substring(option vendor-class-identifier, 0, 9) = "PXEClient"; 
-         vendor-option-space PXE; 
-         option PXE.mtftp-ip 0.0.0.0; 
+
+>     # PXE boot following the PXE specs
+    class "PXE" {
+        match if substring(option vendor-class-identifier, 0, 9) = "PXEClient";
+         vendor-option-space PXE;
+         option PXE.mtftp-ip 0.0.0.0;
             }   
-            
->     # Etherboot boot 
-    class "Etherboot" { 
-        match if substring (option vendor-class-identifier, 0, 11) = "Etherboot-5"; 
-        option vendor-encapsulated-options 3c:09:45:74:68:65:72:62:6f:6f:74:ff; 
-        option vendor-class-identifier "Etherboot-5.0"; 
-        vendor-option-space PXE; 
-        option PXE.mtftp-ip 0.0.0.0; 
-                  } 
-                  
->     subnet 192.168.30.0 netmask 255.255.255.0 { 
-          option broadcast-address 192.168.30.255;        # broadcast address 
-          option domain-name "pulse2.test";               # domain name 
-          option domain-name-servers 192.168.30.1;        # dns servers 
-          option routers 192.168.30.1;                    # default gateway 
->     pool { # Only defined pool 
-                        # uncomment the two following lines for PXE-only boot 
-                        # allow members of "PXE"; # PXE-only 
-                        # allow members of "Etherboot"; # PXE-only 
-                        range 192.168.30.170 192.168.30.180; 
-                        filename "/bootloader/pxe_boot"; 
-                        next-server 192.168.30.1; 
-        } 
-     } 
+
+>     # Etherboot boot
+    class "Etherboot" {
+        match if substring (option vendor-class-identifier, 0, 11) = "Etherboot-5";
+        option vendor-encapsulated-options 3c:09:45:74:68:65:72:62:6f:6f:74:ff;
+        option vendor-class-identifier "Etherboot-5.0";
+        vendor-option-space PXE;
+        option PXE.mtftp-ip 0.0.0.0;
+                  }
+
+>     subnet 192.168.30.0 netmask 255.255.255.0 {
+          option broadcast-address 192.168.30.255;        # broadcast address
+          option domain-name "pulse2.test";               # domain name
+          option domain-name-servers 192.168.30.1;        # dns servers
+          option routers 192.168.30.1;                    # default gateway
+>     pool { # Only defined pool
+                        # uncomment the two following lines for PXE-only boot
+                        # allow members of "PXE"; # PXE-only
+                        # allow members of "Etherboot"; # PXE-only
+                        range 192.168.30.170 192.168.30.180;
+                        filename "/bootloader/pxelinux.0";
+                        next-server 192.168.30.1;
+        }
+     }
 
 Restart DHCP service
 
@@ -730,10 +730,10 @@ Configuration should be set like this :
 Check configuration by tring to join Pulse² server from a workstation
 
     # atftp pulse.localdomain
-    tftp> get /bootloader/pxe_boot
+    tftp> get /bootloader/pxelinux.0
     tftp> quit
-    rm pxe_boot
-    
+    rm pxelinux.0
+
 #### 4.6.5 Activate default imaging server
 Now that DHCP, TFTP and NFS is up and running, **you must set a default imaging server** to permit network boot.
 
@@ -800,7 +800,7 @@ You could also check the `pulse2-setup` commands availability by launching
 Here is the full list :
 
     Usage: pulse2-setup [options]
-    
+
     Options:
       -h, --help            show this help message and exit
       -d, --debug           Print debug messages
@@ -860,4 +860,3 @@ If you have any problem you could post your problem in the [Pulse² forum](http:
 If you found any issue, thanks to report it to [GitHub Repository](https://github.com/mandriva-management-console/mmc/issues)
 
 Have fun with Pulse²
-
