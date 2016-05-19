@@ -1,3 +1,32 @@
+pulse2 (3.3-8) unstable; urgency=low
+  * Fix to paths for davos and bootsplash. Paths are now relative to pxelinux.0
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Thu, 19 Mai 2016 22:00:11 +0100
+
+pulse2 (3.3-7) unstable; urgency=low
+
+  * Use new pxelinux
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 18 Mai 2016 22:00:11 +0100
+
+pulse2 (3.3-2) unstable; urgency=low
+
+  * Several fixes in sync master
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Mon, 05 Apr 2016 22:00:11 +0100
+
+pulse2 (3.3-1) unstable; urgency=low
+
+  * New version : 3.3
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Mon, 14 Mar 2016 22:00:11 +0100
+
+pulse2 (3.0.2-18) unstable; urgency=low
+
+  * Various fixes ( 111f9d19d0a40a6b144fc620390bab2f75669c4e )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Mon, 08 Mar 2016 09:00:11 +0100
+
 pulse2 (3.0.2-17) unstable; urgency=low
   * Various fixes ( 3ff96f0ac00e38e46e477a6b0ab9a9cad49ce608 )
 
