@@ -13,7 +13,6 @@ You must configure the TFTP server to use as base directory::
 Then check the configuration::
 
     # atftp localhost
-    tftp> get /bootloader/pxe_boot
+    tftp> get /bootloader/pxelinux.0
     tftp> quit
-    # rm pxe_boot
-
+    # rm pxelinux.0

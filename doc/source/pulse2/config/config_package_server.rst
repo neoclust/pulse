@@ -184,11 +184,11 @@ Option name        Description                                                  
 mount_point        The API mount point                                                                                                     yes      /imaging_api
 uuid               The package server UUID. You can use the uuidgen command to compute one.                                                no
 base_folder        Base folder where Pulse 2 imaging sub directories are contained.                                                        yes      /var/lib/pulse2/imaging
-bootloader_folder  Where bootloader (and bootsplash) is stored, relative to "base_folder"                                                  yes      bootloader
+bootloader_folder  Where bootloader (and bootsplash) is stored, relative to "pxe_bootloader"                                               yes      ../bootloader
 cdrom_bootloader   The CD-ROM boot loader file. It is used to create bootable restoration CD/DVD.                                          yes      cd_boot
-bootsplash_file    The imaging menu (GRUB menu) backgroung image, in XPM format.                                                           yes      bootsplash.xpm
+bootsplash_file    The imaging menu backgroung image, in PNG format.                                                                       yes      bootsplash.png
 bootmenus_folder   Where boot menus are generated / being served, relative to "base_folder"                                                yes      bootmenus
-diskless_folder    Where kernel, initrd and other official diskless tools are stored, relative to "base_folder"                            yes      diskless
+diskless_folder    Where kernel, initrd and other official diskless tools are stored, relative to "pxe_bootloader"                         yes      ../davos
 diskless_kernel    Name of the diskless kernel to run, relative to "diskless_folder"                                                       yes      kernel
 diskless_initrd    Name of the diskless initrd to boot (core), relative to "diskless_folder"                                               yes      initrd
 diskless_initrdcd  Name of the diskless initrd to boot (add on to boot on CD), relative to "diskless_folder"                               yes      initrdcd
