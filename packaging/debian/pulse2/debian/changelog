@@ -1,3 +1,18 @@
+pulse2 (3.4-2) unstable; urgency=low
+  * add inventory pxelinux ( 5232159a72aa660b77e8b8b4e5f1c56f76579305 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.4-1) unstable; urgency=low
+  *  Fix for Register pulse client PXE menu item: Make use of inventories folder ( ad73f0c7c6fb3275cfa3bb58888bb12b5fb959cb )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Thu, 19 Mai 2016 22:00:11 +0100
+
+pulse2 (3.3-9) unstable; urgency=low
+  * Fix to paths for davos and bootsplash. Paths are now relative to pxelinux.0 ( second try )  ( cbb1c50d37c96b7553f7130f4c8e84a05fc50e26 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Thu, 19 Mai 2016 22:00:11 +0100
+
 pulse2 (3.3-8) unstable; urgency=low
   * Fix to paths for davos and bootsplash. Paths are now relative to pxelinux.0
 
