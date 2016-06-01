@@ -73,6 +73,7 @@ class LdapUserMixin(object):
     FIELDS_TO_SYNC = ['displayName', 'givenName', 'sn']
 
     def _get_user(self, username, attrs=['*']):
+        attrs = attrs or ['*'] #Mutable list 
         entries = self.l.search_s(self.user_base_dn, ldap.SCOPE_SUBTREE,
                                   filterstr='(%s=%s)' % (
                                       self.user_pk_field, username),
