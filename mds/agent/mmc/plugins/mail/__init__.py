@@ -828,7 +828,7 @@ class MailControl(ldapUserGroupControl):
                 new['objectClass'].append('zarafa-user')
 
         # Add maildrop attribute to user if we are not in virtual domain mode
-        if maildrop == None and not self.hasVDomainSupport():
+        if maildrop is None and not self.hasVDomainSupport():
             maildrop = uid
             new[self.conf.attrs['maildrop']] = maildrop
 

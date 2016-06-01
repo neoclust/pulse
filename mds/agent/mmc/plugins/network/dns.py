@@ -434,7 +434,7 @@ zone "%(zone)s" {
         """
         r = AF().log(PLUGIN_NAME, AA.NETWORK_ADD_DNS_ZONE, [(name, AT.ZONE)], network)
         if reverse:
-            if network == None or netmask == None:
+            if network is None or netmask is None:
                 raise Exception("Won't create reverse zone as asked, missing network or netmask")
             netmask = int(netmask)
             # Build network address start according to netmask
