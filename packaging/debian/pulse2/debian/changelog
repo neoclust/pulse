@@ -1,5 +1,121 @@
+pulse2 (3.4-121) unstable; urgency=low
+
+  * Initial import of multi_site assign_algo for package server ( 661d02162e8d3f2fae943a7716c8de00202e3235 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.4-120) unstable; urgency=low
+
+  * Fix typo in makefile ( 92b325c76feb6f88e72e800fb97906d9c6636f45 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.4-119) unstable; urgency=low
+
+  * Install template file ( ba8694b45ec61f8aad960795d0c6799afbcee11c )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.4-118) unstable; urgency=low
+
+  * Master + Revert commit 5c288bf12df48a3baa17a6f6dce187838e9d8936.
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.4-117) unstable; urgency=low
+
+  * Revert to commit a111521712a8417f3b93d3a37326e052dc97ae45
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.4-116) unstable; urgency=low
+
+  * Revert to commit 418bf365c448661d4569aefac8200dece35b1be0
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.4-115) unstable; urgency=low
+
+  * Revert to commit a2b65ae5abee9dcf78f4982d4980f18a9c3c4bfc
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.4-114) unstable; urgency=low
+
+  * Revert to commit 5c288bf12df48a3baa17a6f6dce187838e9d8936
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+
+pulse2 (3.4-113) unstable; urgency=low
+
+  * Revert to commit 1e32829839b290bbb293ca07b7bc4be4041e08c9
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.4-112) unstable; urgency=low
+
+  * Revert to commit 4e7a1196f81345beb523fe4f83447f9115956a34
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.4-11) unstable; urgency=low
+
+  * Revert to commit 5793dce744dddfa4df782b94279007e3fd3ce355
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.4-10) unstable; urgency=low
+
+  * Revert to commit a27e824a9b1d282edd598ef1609171ee2b294004
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.4-9) unstable; urgency=low
+
+  * Fix mutable default argument ( 557333d728e0d788fc52d9d35be68a1f2d3ebf3c )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.4-8) unstable; urgency=low
+
+  * fix Mutable list as default argument to a method or function ( 068267465018638614b05b43d2a70546d0c8fdef )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.4-7) unstable; urgency=low
+
+  * Fix cleaning errors ( 4e7a1196f81345beb523fe4f83447f9115956a34 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.4-6) unstable; urgency=low
+
+  * Add pulse2-register-pxe service ( 918f747c073be9a43367ece1667de58de5f08e70 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.4-5) unstable; urgency=low
+
+  * Fix deps to python-pyinotify 
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+
+pulse2 (3.4-4) unstable; urgency=low
+
+  * Fix to PXE password generation
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.4-3) unstable; urgency=low
+
+  * Addition of tools in imaging and reorganising memtest and dban ( 889a2b1697542db81fd43a0d8005d1efc2df8e4f ) 
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
 pulse2 (3.4-2) unstable; urgency=low
-  * add inventory pxelinux ( 5232159a72aa660b77e8b8b4e5f1c56f76579305 )
+  * add inventory pxelinux
 
  -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
 
