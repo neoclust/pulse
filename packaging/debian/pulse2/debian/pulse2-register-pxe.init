@@ -38,7 +38,7 @@
 
 # Variables
 DESC="Pulse2 Register PXE"
-DAEMON="@sbindir@/pulse2-register-pxe.py"
+DAEMON="/usr/sbin/pulse2-register-pxe.py"
 
 # Function to start daemon
 start () {
