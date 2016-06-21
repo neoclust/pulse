@@ -6,6 +6,8 @@
 <a href='http://travis-ci.org/pulse-project/pulse.svg?branch=master'>
     <img src='http://travis-ci.org/pulse-project/pulse.svg?branch=master' alt='Compilation Status' />
 </a>
+<A href="https://www.quantifiedcode.com/app/project/39be332a61ad4e0ab94b253d93ddb3ca"><img src="https://www.quantifiedcode.com/api/v1/project/39be332a61ad4e0ab94b253d93ddb3ca/badge.svg" alt="Code issues"/></A>
+
 
 This repository is the place where you will find **Directory Server** and **Pulse** projects.
 Both share the same framework: **IT Infrastructure Management Software**, this is why you have to install the core part first.

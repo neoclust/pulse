@@ -243,7 +243,6 @@ class UserQuotaControl(ldapUserGroupControl):
             self.changeUserAttributes(uid, 'networkquota', newquotas)
         except KeyError:
             self.changeUserAttributes(uid, 'networkquota', ldapquota)
-            pass
 
         return True
 
