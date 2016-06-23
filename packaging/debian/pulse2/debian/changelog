@@ -1,3 +1,125 @@
+pulse2 (3.5-5) unstable; urgency=low
+
+  * fix function getAllLocation ( eacb22a4b0b8625623abc468626aafe21549aef1 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.5-4) unstable; urgency=low
+
+  * delete menu in all location ( e698ac0b965737f42df2b46625a3c2197a5d24c5 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.5-3) unstable; urgency=low
+
+  * add hostname in menu ( ac0e779a4601b4ef02ccd02e5eb5205d1f356977 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.5-2) unstable; urgency=low
+
+  * fix menu generation ( 7b3c2aef82bb959d4ebb6fe0d1df8dda2d73fb3e )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.5-1) unstable; urgency=low
+
+  * pulse: bump version to 3.5 ( 0ab066947d177160878dac1a256e4866eb798411 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.4-136) unstable; urgency=low
+
+  * fix syntax error imaging/function.py ( 85e1540d9f397ae2a4d8a39a1acb24d76acc6b56 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.4-135) unstable; urgency=low
+
+  * Revert Mutable dict list as default argument ( 668efa1f749a22f715292a52901d6b21f5bd73e8 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.4-134) unstable; urgency=low
+
+  * Complete revert
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.4-133) unstable; urgency=low
+
+  *     Revert "Mutable dict or list used as default argument to a method or function"
+    
+    This reverts commit 1e32829839b290bbb293ca07b7bc4be4041e08c9.
+
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+pulse2 (3.4-132) unstable; urgency=low
+
+  * fix error algo default if machine is not registred ( c65b17e5df0ce99c383cb7fe707a6153b6a63d7a )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.4-131) unstable; urgency=low
+
+  * add function xmlrpc_imagingServermenuMulticast for delete menu ( 659c53eed3e4a8874b5a2d9d72cef30505f9ede6 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.4-130) unstable; urgency=low
+
+  * delete boot menu machine unregistered from imaging server ( fdba1f247007590fd8ee3498f32f19c9dbe6bdc7 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.4-129) unstable; urgency=low
+
+  * addition information log for algo multi_site ( a15f3e5d469695640316be0e02bd30d6557fe208 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.4-128) unstable; urgency=low
+
+  * Add multi_site to makefile ( 2fe6ba590d0e85e63b1141d6b7207dcdd2464797 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.4-127) unstable; urgency=low
+
+  * Add dump patch to HDT ( 166a96cf1722a1be5e6ed6af864cd881a9bb0baf )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.4-126) unstable; urgency=low
+
+  * Remove pulse2-register-pxe deps
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.4-125) unstable; urgency=low
+
+  * Update Fusioninventory agent ( aa0eeb7743f2d12c87bc687af8cc915fb0269c33 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.4-124) unstable; urgency=low
+
+  * Fix deps
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.4-123) unstable; urgency=low
+
+  * Add schema-011.sql to the Makefile ( 89ee6672cbb70551ec063d5fb86686197039bccb )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.4-122) unstable; urgency=low
+
+  * Fix path in service
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
 pulse2 (3.4-121) unstable; urgency=low
 
   * Initial import of multi_site assign_algo for package server ( 661d02162e8d3f2fae943a7716c8de00202e3235 )
