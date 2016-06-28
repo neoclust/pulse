@@ -1,3 +1,9 @@
+pulse2 (3.5-6) unstable; urgency=low
+
+  * Fix PXE menu generation: Set TOTALTIMEOUT to make sure the machine boots in any case ( 1cde102031e36b64cc3bfde0d3fd097c379fb92d )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
 pulse2 (3.5-5) unstable; urgency=low
 
   * fix function getAllLocation ( eacb22a4b0b8625623abc468626aafe21549aef1 )
