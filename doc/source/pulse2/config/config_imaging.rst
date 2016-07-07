@@ -94,7 +94,6 @@ Available options for the "imaging" section:
 Option name                    Description                                                            Optional Default value
 ============================== ====================================================================== ======== =================================================================
 web_def_date_fmt               Date format to use (see http://www.php.net/date for more informations) yes      "%Y-%m-%d %H:%M:%S"
-web_def_default_protocol       Network protocol to use for image restoration                          yes      nfs
 web_def_default_menu_name      Boot menu name                                                         yes      Menu
 web_def_default_timeout        Boot menu timeout in seconds                                           yes      60
 web_def_default_background_uri Boot menu background                                                   yes
