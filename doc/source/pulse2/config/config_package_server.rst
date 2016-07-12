@@ -189,6 +189,7 @@ cdrom_bootloader   The CD-ROM boot loader file. It is used to create bootable re
 bootsplash_file    The imaging menu (GRUB menu) backgroung image, in XPM format.                                                           yes      bootsplash.xpm
 bootmenus_folder   Where boot menus are generated / being served, relative to "base_folder"                                                yes      bootmenus
 diskless_folder    Where kernel, initrd and other official diskless tools are stored, relative to "base_folder"                            yes      diskless
+davos_options      Options passed to Davos at boot                                                                                         yes      
 tools_folder       Where pulse tools are stored, relative to "base_folder"                                                                 yes      tools
 diskless_kernel    Name of the diskless kernel to run, relative to "diskless_folder"                                                       yes      kernel
 diskless_initrd    Name of the diskless initrd to boot (core), relative to "diskless_folder"                                               yes      initrd
