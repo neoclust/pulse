@@ -1,3 +1,93 @@
+pulse2 (3.5-22) unstable; urgency=low
+
+ * Fix options for pxe registration ( 50de3b38215f198af11c13f63451fdb3db83e485 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.5-21) unstable; urgency=low
+
+ * pulse2-register-pxe: Improve detection of disks and partitions as well as hardware configs ( e2c37b421d6ab891e95a9c62a1af1ab0a5de511a )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.5-20) unstable; urgency=low
+
+ * Include schema-016.sql in Makefile ( 7a0435333c1c095dbdc9259b075670165556a250 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.5-19) unstable; urgency=low
+
+ * add parameter for pulse-register-pxe ( 2ce047e9f8a31980a8e9684eb04b2a5e4e8b0a79 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.5-18) unstable; urgency=low
+
+ * Fix imaging database version ( 99b8d1ca1084402547c647f65db6d283cd788a06 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.5-17) unstable; urgency=low
+
+ *  Define Clonezilla options from Pulse to be used in imaging ( d1e9e937cb49b35fe0b631176cb99af34e326b4e )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.5-16) unstable; urgency=low
+
+ *  Add sql in makefile ( 916cd03cad14172b92ef0f4e45708c69ed649e26 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.5-15) unstable; urgency=low
+
+ *  Updates for sql structures. ( 42514a199b680bb52f3156ee645f0db7156d93cc )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.5-14) unstable; urgency=low
+
+ *  define options for davos ( patch from spo) ( 0384a279eec7037dd94762cef9ab321332ba9a75 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.5-13) unstable; urgency=low
+
+ *  Add schema number set ( 2f7298ca6bb66d19855dbfe99f4498a602159a06 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.5-12) unstable; urgency=low
+
+ *  Revert "Revert "fix function getAllLocation"" ( d92b617aeb598272168be24c29b760dc9273c8d7 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.5-11) unstable; urgency=low
+
+  * add parameter timereboot for pxe inventory ( 8b111cd6e441a5922d16cc69d7a1d45a6cfa6a42 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.5-10) unstable; urgency=low
+
+  * Fix self.hostname value ( 8b93252129d3de1499dbce1405d3b1ef1683b57f )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.5-9) unstable; urgency=low
+
+  * Removal of restore options (nfs, mtftp, ...) ( cb7dfc69f5d1afd89fc11ffc1d3880acd8752a30 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.5-8) unstable; urgency=low
+
+  * Move on top delete button ( 49f0946f2aa08153087693ec2968b495b6ca8e4c )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
 pulse2 (3.5-6) unstable; urgency=low
 
   * Fix PXE menu generation: Set TOTALTIMEOUT to make sure the machine boots in any case ( 1cde102031e36b64cc3bfde0d3fd097c379fb92d )
