@@ -1,7 +1,7 @@
 contribdir = $(datadir)/doc/mmc/contrib
 
 nobase_dist_contrib_DATA = proxy/squidGuard.conf \
-							samba/smb.conf \
+							samba/smb-domain.conf \
 							samba/samba.schema \
 							samba/slapd.conf.samba \
 							userquota/applyquotas.sh \
