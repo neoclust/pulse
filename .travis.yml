@@ -20,6 +20,6 @@ notifications:
     on_failure: always
   irc:
     channels:
-      - "irc01.siveo.net#main"
+      - secure: "zCyncQxuJAtCfPVB44OWy4hks/y6RIOXGLan3Kpa7foBAwwqeozWiQnqj19uWLWj+F6qIdin1nWJhbMDEHKgryeJ5rUQxzUlY9zNM71lDj52w2yh+MwESgphCWl0HJQTrueBpTEhqLNTXJI27fWXdstan3vAwL7UngnNnJxshDdp36OnABccy2FSk6/FKsU369zpOIYWMJHxZnK/0X8ljre3FT4OZ0ByrZD9U+6jZTVFkoltfeF5IZ5LOW05avonvRFZeUoMoQmpSuKKKNVgnZob7bdi1ZV4ZKhrz036rDKOlmE3Tgf7L3HlS/UYdjYj04imJG97Xkd0bwW+bwichReqpqzc49hlVUH8L2ex9CmLrPjFZoptRggN67rNflIF1HG0tS3P453bNZqPwq1TrBvmtrQxKfMq8FTjI1jysm1mf0ItJH6Zbudy6Zn+JLlB3+guE8VIWwxNVcnXmYx/WIJY4bOxh2QgbDzHJIbzY5UNm7mvvBiMbR45dxiZjLuuj5T4hkm/Po2xYCbcEcZ+nnfZYuzo1GKREVKX/7NO7NVLNxORQr5T0m/yvDukdb9+OyCcj875bkpRI3FbO0eYcK7KXBx2DseKYA2bDJMcjYx/G1SZZXKWIY6JCGUo1/4TVcZpNmNERUtthtxsaDig2HClMi3nXhh4lD0zoOVSFhE="
     on_success: always #|never|change] # default: always
     on_failure: always #|never|change] # default: always
