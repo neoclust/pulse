@@ -1,6 +1,7 @@
 branches:
   only:
   - master
+  - xmppmaster
 before_install:
 - sudo apt-get update -qq
 - sudo apt-get install -y python-sqlalchemy python-mysqldb python-twisted-web python-ldap
