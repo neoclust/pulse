@@ -1,25 +1,23 @@
 branches:
   only:
-    - master
-
-
+  - master
+  - xmppmaster
 before_install:
-    - sudo apt-get update -qq
-    - sudo apt-get install -y python-sqlalchemy python-mysqldb python-twisted-web python-ldap python-gobject xsltproc docbook-xsl
-
-install: sh -c ' cd core && sh autogen.sh && ./configure && make && sudo make install &&  cd ../pulse2 && sh autogen.sh && ./configure && make && sudo make install '
-
+- sudo apt-get update -qq
+- sudo apt-get install -y python-sqlalchemy python-mysqldb python-twisted-web python-ldap
+  python-gobject xsltproc docbook-xsl
+install: sh -c ' cd core && sh autogen.sh && ./configure && make && sudo make install
+  &&  cd ../pulse2 && sh autogen.sh && ./configure && make && sudo make install '
 script:
-    - echo "DONE"
-
+- echo "DONE"
 notifications:
   email:
     recipients:
-      - nicolas.lecureuil@siveo.net
+    - nicolas.lecureuil@siveo.net
     on_success: change
     on_failure: always
   irc:
     channels:
-      - secure: "mDGJBTJrxs4o7DaWe7WDHsc15fBvCWlV2YRnYOy+Nq5oAHan9ZkuKcM+tmh2re3boro5ZPp16ZX+AR0bkQmHC6X9HFxwNZWyxfILy1TPhxt4QhLnBdOAj6NgtEvZVTn/hYH2wPkG54vgHaaMi5OCyqHfASm18zXXCo8gO4IYhBsPBgtx/n82Opu6k1/99fbWMgF5QJKIIRkmfF4tYy62GWNmQNJqHib9j8gTZGty6MbYzwdqgp8iqLcxcYQvYUcnFS9+XnYFaucu1FGHCWz5rELG5D9LqkSNFrsOdtLCZihRoAQAExSDZgQHOUJZPxs8vM7Nr7BQZEUtr7rSU4JCEWKT1a9q5N6WmojJ/hRgcZVr0FsMu2gojyU+Honvvdtjy9hG65VwiMTe1y2m5KpAHyoDnTSLRopnkpS4jwtpe01yXfkRoxeoF0V7dUtgn7wWDSwU0TR1CeNFQ2nvHxjRzchHIwQPTBccnAczNJeBNu/gImS2KhPwXnQf/aImaewU6YQT1Hn64PCQUbGKb0ahJ7JhPyON4k1vTGsRsYx+jmngIQH/yO2R1kaBnA6iDr36TVul4ctLjHbWznFQ8cr3avH37VUuXrlN3tKhiJm+1zNp/IbAxbRLnGxLAQzN8SqlIQEb69De6eRZP1W5SV3WsAHntCKnbD7B9hrfXLXAZpk="
+      - "irc.freenode.net#pulse-commits"
     on_success: always #|never|change] # default: always
     on_failure: always #|never|change] # default: always
