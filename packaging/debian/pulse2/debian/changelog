@@ -1,3 +1,111 @@
+pulse2 (3.5-40) unstable; urgency=low
+
+ * Impose launcher_01 for tcp_proxy vnc ( a305f37e232cdc565f765652fa3d680f2fb6ba25 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Tue, 13 Dec 2016 22:00:11 +0100
+
+pulse2 (3.5-39) unstable; urgency=low
+
+ * Select UUID1 by default in Imaging/add imaging group ( 5bde6e5ce1cc43abe8008732ace23fa361ab6a7a )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Tue, 13 Dec 2016 22:00:11 +0100
+
+pulse2 (3.5-38) unstable; urgency=low
+
+ * Allow entity of the same name with a different level ( 98348b46daea84de27ef7a3353326483cc89cbcf )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Tue, 13 Dec 2016 22:00:11 +0100
+
+pulse2 (3.5-37) unstable; urgency=low
+
+ * reinit package after changed ( 42925b67008bee8d1e7b90d1a3e396bbe682d649 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Tue, 13 Dec 2016 22:00:11 +0100
+
+pulse2 (3.5-36) unstable; urgency=low
+
+ * Fix postflight not executable in agents installer for macOS ( e92d4d4ee990abbf9e8a8ab7e3d923626d08f73a )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.5-35) unstable; urgency=low
+
+ * Fix installer for mac os ( 616beed8865a597a8bb4a8b3b80683963f0ac64d )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.5-34) unstable; urgency=low
+
+ * Optimization of the computer list query ( 6524786d11ef8f6d34dfbfe24cda1609b912918d )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.5-33) unstable; urgency=low
+
+ * Fix detection of netmask ( 24650afd2b61f37e3fd128a9d0231389dc141f5a )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.5-32) unstable; urgency=low
+
+ * Enable registration of assembled machines ( 57bc83d24c5590ced9589073bdd81e204a2d7111 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.5-31) unstable; urgency=low
+
+ * Fix scheduler to make use of preferred_network for the choice of launchers ( adf9f3bd107dda60ba642ca801684152c24f72f1 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.5-30) unstable; urgency=low
+
+ * Fix for deployment on targets where IP address has changed ( aab8348e3b1a45848625715652642ff3786de1c9 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.5-29) unstable; urgency=low
+
+ * Merge pull request #12 from botheis/master( 7c40836330e14892c353c40215d6ca15099cdb59 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.5-28) unstable; urgency=low
+
+ * Fix listing packages in Launch Bundle view of computer's secure control ( d32d412d074cb8911c5aa846513ae06d0792de42 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.5-27) unstable; urgency=low
+
+ * glpi: Fix logic ( 4eae7e39c09e6208626c3e08b59aecc57c4f19ba )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.5-26) unstable; urgency=low
+
+ * Fix typo in query ( 017779d8292659eaa43b5a27acd4ec4b73af0986 )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.5-25) unstable; urgency=low
+
+ * PXE registration: Fix loading of json files containing non printable characters ( 0976b436fee8301347c5202b3cf6b53247a6d58a )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.5-24) unstable; urgency=low
+
+ * Create tables in INNODB format instead of MYISAM for restore purposes ( acf4e8b0dd803745bdb21f9de44badefa145e99b )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
+pulse2 (3.5-23) unstable; urgency=low
+
+ * Fix database auto increment ( d753dd6f49480df46f019be863178a48961dda0e )
+
+ -- Nicolas Lécureuil <nicolas.lecureuil@siveo.net>  Wed, 25 Mai 2016 22:00:11 +0100
+
 pulse2 (3.5-22) unstable; urgency=low
 
  * Fix options for pxe registration ( 50de3b38215f198af11c13f63451fdb3db83e485 )
