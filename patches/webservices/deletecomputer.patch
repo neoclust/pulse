@@ -1,0 +1,21 @@
+--- methodinventaire.class.php	2015-10-01 18:46:07.000000000 +0200
++++ methodinventaire.classnew.php	2015-12-10 16:50:09.371118200 +0100
+@@ -930,12 +930,13 @@
+                if (!$item->maybeDeleted) {
+                   $right = 'PURGE';
+                }
+-               if(!$item->can($tab['id'], $right)){
+-                  $errors[$itemtype][$tab['id']] = self::Error($protocol, WEBSERVICES_ERROR_NOTALLOWED,
+-                                                              '', self::getDisplayError());
+-               } else {
++//                if(!$item->can($tab['id'], $right)){
++//                   $errors[$itemtype][$tab['id']] = self::Error($protocol, WEBSERVICES_ERROR_NOTALLOWED,
++//                                                               '', self::getDisplayError());
++//                } else {
++               $tab['force']='1';
+                   $resp[$itemtype][$tab['id']] = $item->delete(array('id' => $tab['id']), $tab['force']);
+-               }
++//                }
+             }
+          }
+       }
