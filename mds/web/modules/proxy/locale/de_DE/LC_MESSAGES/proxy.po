@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mandriva Directory Server\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-10 17:18+0100\n"
+"POT-Creation-Date: 2017-02-24 11:22+0100\n"
 "PO-Revision-Date: 2016-06-01 17:32+0100\n"
 "Last-Translator: Maik <mwagner@mandriva.com>\n"
 "Language-Team: German <http://translate.mandriva.com/projects/mds-26/proxy/"
@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 1.6.10\n"
 
-#: modules/proxy/blacklist/add.php:60 modules/proxy/infoPackage.inc.php:51
+#: modules/proxy/infoPackage.inc.php:51 modules/proxy/blacklist/add.php:60
 msgid "Add a domain in the blacklist"
 msgstr "hinzufügen einer Domäne zur Blacklist"
 
@@ -40,8 +40,7 @@ msgstr "Sind Sie sicher?"
 msgid "Back"
 msgstr "zurück"
 
-#: modules/proxy/includes/auditCodes.php:7
-#: modules/proxy/infoPackage.inc.php:44
+#: modules/proxy/infoPackage.inc.php:44 modules/proxy/includes/auditCodes.php:7
 msgid "Blacklist"
 msgstr "Blacklist"
 
@@ -49,8 +48,8 @@ msgstr "Blacklist"
 msgid "Blacklist entries"
 msgstr "Blacklist Einträge"
 
-#: modules/proxy/blacklist/index.php:33
 #: modules/proxy/blacklist/localSidebar.php:28
+#: modules/proxy/blacklist/index.php:33
 msgid "Blacklist management"
 msgstr "Blacklistverwaltung"
 
@@ -113,7 +112,7 @@ msgstr "entfernen einer squidGuard Domäne"
 msgid "Restart proxy web service"
 msgstr "Web-Proxy-Dienst neu starten"
 
-#: modules/proxy/blacklist/index.php:54 modules/proxy/blacklist/statut.php:59
+#: modules/proxy/blacklist/statut.php:59 modules/proxy/blacklist/index.php:54
 msgid "Restart service"
 msgstr "Dienst neu starten"
 

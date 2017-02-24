@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mandriva Directory Server\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-10 17:18+0100\n"
+"POT-Creation-Date: 2017-02-24 11:22+0100\n"
 "PO-Revision-Date: 2016-06-01 17:32+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,8 +52,8 @@ msgstr ""
 msgid "Access for all"
 msgstr ""
 
-#: modules/samba/includes/publicFunc.php:356
-#: modules/samba/infoPackage.inc.php:136
+#: modules/samba/infoPackage.inc.php:140
+#: modules/samba/includes/publicFunc.php:357
 msgid "Account expiration"
 msgstr ""
 
@@ -65,8 +65,7 @@ msgstr ""
 msgid "Active"
 msgstr ""
 
-#: modules/samba/views/users.tpl.php:138
-#: modules/samba/views/groups.tpl.php:138
+#: modules/samba/views/users.tpl.php:138 modules/samba/views/groups.tpl.php:138
 msgid "Add"
 msgstr ""
 
@@ -78,8 +77,8 @@ msgstr ""
 msgid "Add SAMBA properties"
 msgstr ""
 
-#: modules/samba/shares/localSidebar.php:37 modules/samba/machines/add.php:42
-#: modules/samba/machines/localSidebar.php:31
+#: modules/samba/machines/add.php:42 modules/samba/machines/localSidebar.php:31
+#: modules/samba/shares/localSidebar.php:37
 msgid "Add a computer"
 msgstr ""
 
@@ -91,9 +90,8 @@ msgstr ""
 msgid "Add a new user"
 msgstr ""
 
-#: modules/samba/shares/details.php:153
+#: modules/samba/infoPackage.inc.php:54 modules/samba/shares/details.php:153
 #: modules/samba/shares/localSidebar.php:31
-#: modules/samba/infoPackage.inc.php:50
 msgid "Add a share"
 msgstr ""
 
@@ -105,7 +103,7 @@ msgstr ""
 msgid "Add share"
 msgstr ""
 
-#: modules/samba/infoPackage.inc.php:129
+#: modules/samba/infoPackage.inc.php:133
 msgid "Add/delete SAMBA's attributes"
 msgstr ""
 
@@ -126,11 +124,11 @@ msgstr ""
 msgid "Apply rights recursively"
 msgstr ""
 
-#: modules/samba/shares/index.php:68
+#: modules/samba/shares/ajaxFilter.php:41
 msgid "Archive"
 msgstr ""
 
-#: modules/samba/infoPackage.inc.php:55
+#: modules/samba/infoPackage.inc.php:59
 msgid "Backup a share"
 msgstr ""
 
@@ -143,12 +141,11 @@ msgstr ""
 msgid "Backup share"
 msgstr ""
 
-#: modules/samba/includes/publicFunc.php:368
-#: modules/samba/config/index.php:172
+#: modules/samba/config/index.php:172 modules/samba/includes/publicFunc.php:369
 msgid "Base directory path"
 msgstr ""
 
-#: modules/samba/infoPackage.inc.php:133
+#: modules/samba/infoPackage.inc.php:137
 msgid "Can change password"
 msgstr ""
 
@@ -172,8 +169,8 @@ msgstr ""
 msgid "Check your custom parameters."
 msgstr ""
 
-#: modules/samba/shares/details.php:209 modules/samba/machines/add.php:54
-#: modules/samba/machines/edit.php:68
+#: modules/samba/machines/add.php:54 modules/samba/machines/edit.php:68
+#: modules/samba/shares/details.php:209
 msgid "Comment"
 msgstr ""
 
@@ -191,7 +188,7 @@ msgstr ""
 msgid "Computer <strong>%s</strong> deleted."
 msgstr ""
 
-#: modules/samba/infoPackage.inc.php:80
+#: modules/samba/infoPackage.inc.php:84
 msgid "Computer list"
 msgstr ""
 
@@ -199,7 +196,7 @@ msgstr ""
 msgid "Computer management"
 msgstr ""
 
-#: modules/samba/machines/ajaxFilter.php:38 modules/samba/machines/add.php:50
+#: modules/samba/machines/add.php:50 modules/samba/machines/ajaxFilter.php:38
 msgid "Computer name"
 msgstr ""
 
@@ -207,26 +204,25 @@ msgstr ""
 msgid "Computer successfully modified."
 msgstr ""
 
-#: modules/samba/machines/ajaxFilter.php:46 modules/samba/status/index.php:65
-#: modules/samba/status/index.php:114
+#: modules/samba/status/index.php:65 modules/samba/status/index.php:114
+#: modules/samba/machines/ajaxFilter.php:46
 msgid "Computers"
 msgstr ""
 
-#: modules/samba/shares/localSidebar.php:34
 #: modules/samba/machines/localSidebar.php:28
+#: modules/samba/shares/localSidebar.php:34
 msgid "Computers management"
 msgstr ""
 
-#: modules/samba/infoPackage.inc.php:106
+#: modules/samba/infoPackage.inc.php:110
 msgid "Configuration"
 msgstr ""
 
-#: modules/samba/shares/details.php:473 modules/samba/machines/edit.php:82
+#: modules/samba/machines/edit.php:82 modules/samba/shares/details.php:473
 msgid "Confirm"
 msgstr ""
 
-#: modules/samba/includes/publicFunc.php:369
-#: modules/samba/config/index.php:173
+#: modules/samba/config/index.php:173 modules/samba/includes/publicFunc.php:370
 msgid "Connect base directory on network drive"
 msgstr ""
 
@@ -262,13 +258,13 @@ msgstr ""
 msgid "Del share"
 msgstr ""
 
-#: modules/samba/shares/index.php:51 modules/samba/views/users.tpl.php:125
-#: modules/samba/views/groups.tpl.php:125
 #: modules/samba/machines/ajaxFilter.php:45
+#: modules/samba/shares/ajaxFilter.php:28 modules/samba/views/users.tpl.php:125
+#: modules/samba/views/groups.tpl.php:125
 msgid "Delete"
 msgstr ""
 
-#: modules/samba/infoPackage.inc.php:93 modules/samba/machines/delete.php:40
+#: modules/samba/infoPackage.inc.php:97 modules/samba/machines/delete.php:40
 msgid "Delete a computer"
 msgstr ""
 
@@ -280,7 +276,8 @@ msgstr ""
 msgid "Delete all data"
 msgstr ""
 
-#: modules/samba/shares/index.php:64 modules/samba/machines/ajaxFilter.php:42
+#: modules/samba/machines/ajaxFilter.php:42
+#: modules/samba/shares/ajaxFilter.php:37
 msgid "Description"
 msgstr ""
 
@@ -288,7 +285,7 @@ msgstr ""
 msgid "Disable computer account"
 msgstr ""
 
-#: modules/samba/includes/publicFunc.php:293
+#: modules/samba/includes/publicFunc.php:294
 msgid "Disable samba user account"
 msgstr ""
 
@@ -300,11 +297,12 @@ msgstr ""
 msgid "Domain name"
 msgstr ""
 
-#: modules/samba/shares/index.php:50 modules/samba/machines/ajaxFilter.php:44
+#: modules/samba/machines/ajaxFilter.php:44
+#: modules/samba/shares/ajaxFilter.php:27
 msgid "Edit"
 msgstr ""
 
-#: modules/samba/infoPackage.inc.php:89
+#: modules/samba/infoPackage.inc.php:93
 msgid "Edit a computer"
 msgstr ""
 
@@ -316,12 +314,12 @@ msgstr ""
 msgid "Enable user"
 msgstr ""
 
-#: modules/samba/infoPackage.inc.php:130
+#: modules/samba/infoPackage.inc.php:134
 msgid "Enable/Disable account"
 msgstr ""
 
-#: modules/samba/includes/publicFunc.php:177
-#: modules/samba/includes/publicFunc.php:184
+#: modules/samba/includes/publicFunc.php:178
+#: modules/samba/includes/publicFunc.php:185
 msgid "Failed to add Samba attributes."
 msgstr ""
 
@@ -333,11 +331,11 @@ msgstr ""
 msgid "Groups"
 msgstr ""
 
-#: modules/samba/infoPackage.inc.php:139
+#: modules/samba/infoPackage.inc.php:143
 msgid "Home drive"
 msgstr ""
 
-#: modules/samba/infoPackage.inc.php:138
+#: modules/samba/infoPackage.inc.php:142
 msgid "Home path"
 msgstr ""
 
@@ -345,7 +343,7 @@ msgstr ""
 msgid "IP"
 msgstr ""
 
-#: modules/samba/includes/publicFunc.php:216
+#: modules/samba/includes/publicFunc.php:217
 msgid "Invalid network drive."
 msgstr ""
 
@@ -361,7 +359,7 @@ msgstr ""
 msgid "List shares"
 msgstr ""
 
-#: modules/samba/includes/publicFunc.php:302
+#: modules/samba/includes/publicFunc.php:303
 msgid ""
 "Lock samba user access<p>User can be locked after too many failed log.</p>"
 msgstr ""
@@ -370,15 +368,15 @@ msgstr ""
 msgid "Lock user"
 msgstr ""
 
-#: modules/samba/infoPackage.inc.php:131
+#: modules/samba/infoPackage.inc.php:135
 msgid "Lock/Unlock account"
 msgstr ""
 
-#: modules/samba/infoPackage.inc.php:137
+#: modules/samba/infoPackage.inc.php:141
 msgid "Logon script"
 msgstr ""
 
-#: modules/samba/infoPackage.inc.php:77
+#: modules/samba/infoPackage.inc.php:81
 msgid "Machines"
 msgstr ""
 
@@ -390,11 +388,11 @@ msgstr ""
 msgid "Mod share"
 msgstr ""
 
-#: modules/samba/infoPackage.inc.php:134 modules/samba/infoPackage.inc.php:135
+#: modules/samba/infoPackage.inc.php:138 modules/samba/infoPackage.inc.php:139
 msgid "Must change password"
 msgstr ""
 
-#: modules/samba/shares/details.php:204 modules/samba/machines/edit.php:63
+#: modules/samba/machines/edit.php:63 modules/samba/shares/details.php:204
 msgid "Name"
 msgstr ""
 
@@ -402,11 +400,11 @@ msgstr ""
 msgid "Network path for profiles"
 msgstr ""
 
-#: modules/samba/includes/publicFunc.php:332
+#: modules/samba/includes/publicFunc.php:333
 msgid "Network path for user's profile"
 msgstr ""
 
-#: modules/samba/infoPackage.inc.php:132
+#: modules/samba/infoPackage.inc.php:136
 msgid "Network profile"
 msgstr ""
 
@@ -430,8 +428,7 @@ msgstr ""
 msgid "Opened sessions"
 msgstr ""
 
-#: modules/samba/includes/publicFunc.php:367
-#: modules/samba/config/index.php:171
+#: modules/samba/config/index.php:171 modules/samba/includes/publicFunc.php:368
 msgid "Opening script session"
 msgstr ""
 
@@ -457,15 +454,15 @@ msgstr ""
 msgid "Reload SAMBA configuration"
 msgstr ""
 
-#: modules/samba/infoPackage.inc.php:120
+#: modules/samba/infoPackage.inc.php:124
 msgid "Reload SAMBA service"
 msgstr ""
 
-#: modules/samba/infoPackage.inc.php:59
+#: modules/samba/infoPackage.inc.php:63
 msgid "Remove a share"
 msgstr ""
 
-#: modules/samba/includes/auditCodes.php:30 modules/samba/config/index.php:186
+#: modules/samba/config/index.php:186 modules/samba/includes/auditCodes.php:30
 msgid "Restart SAMBA"
 msgstr ""
 
@@ -473,7 +470,7 @@ msgstr ""
 msgid "SAMBA"
 msgstr ""
 
-#: modules/samba/infoPackage.inc.php:111
+#: modules/samba/infoPackage.inc.php:115
 msgid "SAMBA configuration"
 msgstr ""
 
@@ -487,35 +484,35 @@ msgstr ""
 msgid "SAMBA management"
 msgstr ""
 
+#: modules/samba/infoPackage.inc.php:149
 #: modules/samba/includes/panels/samba.inc.php:29
-#: modules/samba/infoPackage.inc.php:145
 msgid "SAMBA status"
 msgstr ""
 
-#: modules/samba/includes/publicFunc.php:271
+#: modules/samba/includes/publicFunc.php:272
 msgid "Samba access"
 msgstr ""
 
-#: modules/samba/includes/publicFunc.php:119
+#: modules/samba/includes/publicFunc.php:120
 msgid "Samba account disabled."
 msgstr ""
 
-#: modules/samba/includes/publicFunc.php:124
+#: modules/samba/includes/publicFunc.php:125
 msgid "Samba account enabled."
 msgstr ""
 
-#: modules/samba/includes/publicFunc.php:175
+#: modules/samba/includes/publicFunc.php:176
 msgid "Samba attributes added."
 msgstr ""
 
-#: modules/samba/includes/publicFunc.php:71
+#: modules/samba/includes/publicFunc.php:72
 msgid "Samba attributes deleted."
 msgstr ""
 
-#: modules/samba/includes/publicFunc.php:258
-#: modules/samba/includes/publicFunc.php:263
-#: modules/samba/includes/publicFunc.php:267
-#: modules/samba/includes/publicFunc.php:287
+#: modules/samba/includes/publicFunc.php:259
+#: modules/samba/includes/publicFunc.php:264
+#: modules/samba/includes/publicFunc.php:268
+#: modules/samba/includes/publicFunc.php:288
 msgid "Samba properties"
 msgstr ""
 
@@ -527,7 +524,7 @@ msgstr ""
 msgid "Server name"
 msgstr ""
 
-#: modules/samba/includes/auditCodes.php:48 modules/samba/status/index.php:85
+#: modules/samba/status/index.php:85 modules/samba/includes/auditCodes.php:48
 msgid "Share"
 msgstr ""
 
@@ -550,7 +547,7 @@ msgstr ""
 msgid "Share backup"
 msgstr ""
 
-#: modules/samba/infoPackage.inc.php:63
+#: modules/samba/infoPackage.inc.php:67
 msgid "Share details"
 msgstr ""
 
@@ -563,8 +560,8 @@ msgstr ""
 msgid "Share user's homes"
 msgstr ""
 
-#: modules/samba/shares/index.php:58 modules/samba/shares/index.php:62
-#: modules/samba/infoPackage.inc.php:40
+#: modules/samba/infoPackage.inc.php:40 modules/samba/shares/index.php:29
+#: modules/samba/shares/ajaxFilter.php:35
 msgid "Shares"
 msgstr ""
 
@@ -576,7 +573,7 @@ msgstr ""
 msgid "Some options are not valid"
 msgstr ""
 
-#: modules/samba/includes/publicFunc.php:357
+#: modules/samba/includes/publicFunc.php:358
 msgid ""
 "Specifies the date when the user will be locked down and cannot login any "
 "longer. If this attribute is omitted, then the account will never expire."
@@ -603,7 +600,7 @@ msgid ""
 "backup."
 msgstr ""
 
-#: modules/samba/includes/publicFunc.php:258
+#: modules/samba/includes/publicFunc.php:259
 msgid "The password of this account has expired."
 msgstr ""
 
@@ -630,11 +627,11 @@ msgstr ""
 msgid "The share path is not authorized by configuration"
 msgstr ""
 
-#: modules/samba/includes/publicFunc.php:288
+#: modules/samba/includes/publicFunc.php:289
 msgid "This account is disabled"
 msgstr ""
 
-#: modules/samba/includes/publicFunc.php:263
+#: modules/samba/includes/publicFunc.php:264
 msgid "This account is locked."
 msgstr ""
 
@@ -686,7 +683,7 @@ msgstr ""
 msgid "Unlock user"
 msgstr ""
 
-#: modules/samba/includes/publicFunc.php:319
+#: modules/samba/includes/publicFunc.php:320
 msgid "Use network profile, if checked"
 msgstr ""
 
@@ -702,15 +699,15 @@ msgstr ""
 msgid "User"
 msgstr ""
 
-#: modules/samba/includes/publicFunc.php:292
+#: modules/samba/includes/publicFunc.php:293
 msgid "User is disabled, if checked"
 msgstr ""
 
-#: modules/samba/includes/publicFunc.php:301
+#: modules/samba/includes/publicFunc.php:302
 msgid "User is locked, if checked"
 msgstr ""
 
-#: modules/samba/includes/publicFunc.php:348
+#: modules/samba/includes/publicFunc.php:349
 msgid "User must change password on next logon, <br/>if checked"
 msgstr ""
 
@@ -722,7 +719,7 @@ msgstr ""
 msgid "User password doesn't expire"
 msgstr ""
 
-#: modules/samba/views/users.tpl.php:26 modules/samba/status/index.php:64
+#: modules/samba/status/index.php:64 modules/samba/views/users.tpl.php:26
 msgid "Users"
 msgstr ""
 
@@ -734,7 +731,7 @@ msgstr ""
 msgid "Yes"
 msgstr ""
 
-#: modules/samba/includes/publicFunc.php:206
+#: modules/samba/includes/publicFunc.php:207
 msgid "You must reenter your password."
 msgstr ""
 
@@ -748,6 +745,6 @@ msgstr ""
 msgid "You will delete the share <b>%s</b>"
 msgstr ""
 
-#: modules/samba/infoPackage.inc.php:116
+#: modules/samba/infoPackage.inc.php:120
 msgid "restart SAMBA service"
 msgstr ""

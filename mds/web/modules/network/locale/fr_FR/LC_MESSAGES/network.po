@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mandriva Directory Server\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-10 17:18+0100\n"
+"POT-Creation-Date: 2017-02-24 11:22+0100\n"
 "PO-Revision-Date: 2016-06-01 17:32+0100\n"
 "Last-Translator: Jean-François <jfmorcillo@mandriva.com>\n"
 "Language-Team: French <http://translate.mandriva.com/projects/mds-26/network/"
@@ -173,27 +173,27 @@ msgstr "Ajout d'un sous-réseau DHCP"
 msgid "Add zone"
 msgstr "Ajout d'une zone DNS"
 
-#: modules/network/network/dnsrecords/key.php:156
-#: modules/network/network/dnsrecords/key.php:231
-#: modules/network/network/dnsrecords/rrsig.php:141
-#: modules/network/network/dnsrecords/rrsig.php:206
+#: modules/network/network/dnsrecords/ds.php:106
+#: modules/network/network/dnsrecords/ds.php:152
 #: modules/network/network/dnsrecords/sshfp.php:102
 #: modules/network/network/dnsrecords/sshfp.php:141
 #: modules/network/network/dnsrecords/cert.php:122
 #: modules/network/network/dnsrecords/cert.php:165
+#: modules/network/network/dnsrecords/key.php:156
+#: modules/network/network/dnsrecords/key.php:231
+#: modules/network/network/dnsrecords/rrsig.php:141
+#: modules/network/network/dnsrecords/rrsig.php:206
 #: modules/network/network/dnsrecords/sig.php:140
 #: modules/network/network/dnsrecords/sig.php:205
-#: modules/network/network/dnsrecords/ds.php:106
-#: modules/network/network/dnsrecords/ds.php:152
 msgid "Algorithm"
 msgstr "Algorithme"
 
-#: modules/network/network/dnsrecords/key.php:166
-#: modules/network/network/dnsrecords/rrsig.php:151
+#: modules/network/network/dnsrecords/ds.php:116
 #: modules/network/network/dnsrecords/sshfp.php:112
 #: modules/network/network/dnsrecords/cert.php:132
+#: modules/network/network/dnsrecords/key.php:166
+#: modules/network/network/dnsrecords/rrsig.php:151
 #: modules/network/network/dnsrecords/sig.php:150
-#: modules/network/network/dnsrecords/ds.php:116
 msgid "Algorithm ranges from 0 to 255"
 msgstr "L'algorithme prend une valeur entre 0 et 255"
 
@@ -260,16 +260,16 @@ msgstr "Enregistrement de type CNAME"
 msgid "Can't find the dhcpd.leases file"
 msgstr "Ne peut trouver le fichier dhcpd.leases"
 
-#: modules/network/network/subnetdelete.php:48
 #: modules/network/network/subnetdeletehost.php:73
 #: modules/network/network/delete.php:44
+#: modules/network/network/subnetdelete.php:48
 msgid "Cancel"
 msgstr "Annuler"
 
-#: modules/network/network/dnsrecords/cname.php:22
-#: modules/network/network/dnsrecords/cname.php:34
 #: modules/network/network/dnsrecords/ptr.php:24
 #: modules/network/network/dnsrecords/ptr.php:35
+#: modules/network/network/dnsrecords/cname.php:22
+#: modules/network/network/dnsrecords/cname.php:34
 msgid "Canonical name"
 msgstr "Nom canonique"
 
@@ -306,28 +306,28 @@ msgstr ""
 "Impossible de déterminer les paramètres de l'enregistrement. Les données "
 "LDAP sont incorrectes :"
 
-#: modules/network/network/edithost.php:162
 #: modules/network/network/subnetedithost.php:291
 #: modules/network/network/subnetedit.php:390
+#: modules/network/network/edithost.php:162
 #: modules/network/network/edit.php:292
 #: modules/network/network/editrecord.php:223
 msgid "Create"
 msgstr "Créer"
 
-#: modules/network/network/dnsrecords/key.php:164
-#: modules/network/network/dnsrecords/rrsig.php:149
+#: modules/network/network/dnsrecords/ds.php:114
 #: modules/network/network/dnsrecords/sshfp.php:110
 #: modules/network/network/dnsrecords/cert.php:130
+#: modules/network/network/dnsrecords/key.php:164
+#: modules/network/network/dnsrecords/rrsig.php:149
 #: modules/network/network/dnsrecords/sig.php:148
-#: modules/network/network/dnsrecords/ds.php:114
 msgid "Custom algorithm"
 msgstr "Algorithme personnalisé"
 
-#: modules/network/network/dnsrecords/rrsig.php:23
+#: modules/network/network/dnsrecords/ds.php:20
 #: modules/network/network/dnsrecords/sshfp.php:15
 #: modules/network/network/dnsrecords/cert.php:18
+#: modules/network/network/dnsrecords/rrsig.php:23
 #: modules/network/network/dnsrecords/sig.php:23
-#: modules/network/network/dnsrecords/ds.php:20
 msgid "Custom algorithm is no setted"
 msgstr "L'algorithme personnalisé n'est pas défini"
 
@@ -389,8 +389,8 @@ msgstr "Le sous-type personnalisé s'étend de 0 à 65535"
 msgid "Custom type"
 msgstr "Type personnalisé"
 
-#: modules/network/network/dnsrecords/rrsig.php:21
 #: modules/network/network/dnsrecords/cert.php:16
+#: modules/network/network/dnsrecords/rrsig.php:21
 #: modules/network/network/dnsrecords/sig.php:21
 msgid "Custom type is no setted"
 msgstr "Le type personnalisé n'est pas défini"
@@ -449,9 +449,9 @@ msgid "DHCP subnet management"
 msgstr "Gestion des sous-réseaux DHCP"
 
 #: modules/network/infoPackage.inc.php:168
+#: modules/network/network/localSidebar.php:34
 #: modules/network/network/ajaxSubnetFilter.php:43
 #: modules/network/network/ajaxSubnetFilter.php:50
-#: modules/network/network/localSidebar.php:34
 msgid "DHCP subnets"
 msgstr "Sous-réseaux DHCP"
 
@@ -462,8 +462,8 @@ msgid ""
 msgstr ""
 "Serveurs DNS pour les clients. Séparez les adresses des serveurs avec ','."
 
-#: modules/network/network/edithost.php:78
 #: modules/network/network/subnetedithost.php:138
+#: modules/network/network/edithost.php:78
 msgid "DNS record successfully modified."
 msgstr "Enregistrement DNS modifié avec succès."
 
@@ -492,9 +492,9 @@ msgid "DNS zone successfully modified."
 msgstr "La zone DNS a été modifiée avec succès."
 
 #: modules/network/infoPackage.inc.php:60
-#: modules/network/network/localSidebar.php:29
 #: modules/network/network/ajaxZoneFilter.php:36
 #: modules/network/network/ajaxZoneFilter.php:42
+#: modules/network/network/localSidebar.php:29
 msgid "DNS zones"
 msgstr "Zones DNS"
 
@@ -506,11 +506,11 @@ msgstr "Gestion des zones DNS"
 msgid "DNSSEC"
 msgstr "DNSSEC"
 
+#: modules/network/network/dnsrecords/ds.php:162
+#: modules/network/network/dnsrecords/cert.php:174
 #: modules/network/network/dnsrecords/key.php:247
 #: modules/network/network/dnsrecords/rrsig.php:220
-#: modules/network/network/dnsrecords/cert.php:174
 #: modules/network/network/dnsrecords/sig.php:219
-#: modules/network/network/dnsrecords/ds.php:162
 msgid "DSA"
 msgstr "DSA"
 
@@ -592,8 +592,8 @@ msgstr "Supprimer un sous-réseau"
 msgid "Delete alias (CNAME record)"
 msgstr "Supprimer l'alias (enregistrement CNAME)"
 
-#: modules/network/network/ajaxSubnetMembersFilter.php:78
 #: modules/network/network/subnetdeletehost.php:72
+#: modules/network/network/ajaxSubnetMembersFilter.php:78
 msgid "Delete host"
 msgstr "Suppression de l'hôte"
 
@@ -609,16 +609,16 @@ msgstr "Supprimer un enregistrement"
 msgid "Delete subnet"
 msgstr "Supprimer le sous-réseau"
 
+#: modules/network/network/ajaxZoneFilter.php:48
 #: modules/network/network/ajaxSubnetFilter.php:55
 #: modules/network/network/delete.php:43
-#: modules/network/network/ajaxZoneFilter.php:48
 msgid "Delete zone"
 msgstr "Suppression de la zone"
 
-#: modules/network/network/ajaxSubnetFilter.php:48
+#: modules/network/network/ajaxZoneFilter.php:41
 #: modules/network/network/subnetedit.php:212
 #: modules/network/network/edit.php:230
-#: modules/network/network/ajaxZoneFilter.php:41
+#: modules/network/network/ajaxSubnetFilter.php:48
 msgid "Description"
 msgstr "Description"
 
@@ -627,11 +627,11 @@ msgstr "Description"
 msgid "Diameter of a sphere enclosing the described entity"
 msgstr "Diamètre de la sphère entourant l'entité décrite"
 
+#: modules/network/network/dnsrecords/ds.php:161
+#: modules/network/network/dnsrecords/cert.php:173
 #: modules/network/network/dnsrecords/key.php:246
 #: modules/network/network/dnsrecords/rrsig.php:219
-#: modules/network/network/dnsrecords/cert.php:173
 #: modules/network/network/dnsrecords/sig.php:218
-#: modules/network/network/dnsrecords/ds.php:161
 msgid "Diffie-Hellman"
 msgstr "Diffie-Hellman"
 
@@ -662,25 +662,25 @@ msgid "Domain Name"
 msgstr "Nom de domaine"
 
 #: modules/network/network/subnetedit.php:228
-#: modules/network/network/dnsrecords/key.php:137
-#: modules/network/network/dnsrecords/rrsig.php:123
-#: modules/network/network/dnsrecords/sshfp.php:82
+#: modules/network/network/dnsrecords/ds.php:86
 #: modules/network/network/dnsrecords/naptr.php:51
+#: modules/network/network/dnsrecords/sshfp.php:82
 #: modules/network/network/dnsrecords/cert.php:104
+#: modules/network/network/dnsrecords/key.php:137
+#: modules/network/network/dnsrecords/nsec.php:42
+#: modules/network/network/dnsrecords/ns.php:21
+#: modules/network/network/dnsrecords/rrsig.php:123
+#: modules/network/network/dnsrecords/sig.php:122
 #: modules/network/network/dnsrecords/kx.php:28
 #: modules/network/network/dnsrecords/mx.php:29
-#: modules/network/network/dnsrecords/ns.php:21
-#: modules/network/network/dnsrecords/nsec.php:42
-#: modules/network/network/dnsrecords/sig.php:122
-#: modules/network/network/dnsrecords/ds.php:86
 msgid "Domain name"
 msgstr "Nom de domaine"
 
+#: modules/network/network/dnsrecords/ds.php:165
+#: modules/network/network/dnsrecords/cert.php:177
 #: modules/network/network/dnsrecords/key.php:250
 #: modules/network/network/dnsrecords/rrsig.php:223
-#: modules/network/network/dnsrecords/cert.php:177
 #: modules/network/network/dnsrecords/sig.php:222
-#: modules/network/network/dnsrecords/ds.php:165
 msgid "Domain name (Private)"
 msgstr "Nom de domaine (pPrivé)"
 
@@ -787,11 +787,11 @@ msgstr "Éditer le sous-réseau"
 msgid "Edit zone"
 msgstr "Éditer la zone"
 
+#: modules/network/network/dnsrecords/ds.php:163
+#: modules/network/network/dnsrecords/cert.php:175
 #: modules/network/network/dnsrecords/key.php:248
 #: modules/network/network/dnsrecords/rrsig.php:221
-#: modules/network/network/dnsrecords/cert.php:175
 #: modules/network/network/dnsrecords/sig.php:220
-#: modules/network/network/dnsrecords/ds.php:163
 msgid "Elliptic curve crypto"
 msgstr "Cryptographie sur courbes elliptiques (ECC)"
 
@@ -880,20 +880,20 @@ msgid "Horizontal precision"
 msgstr "Précision horizontale"
 
 #: modules/network/network/ajaxZoneRecordsFilter.php:160
-#: modules/network/network/ajaxSubnetMembersFilter.php:108
 #: modules/network/network/ajaxZoneMembersFilter.php:80
+#: modules/network/network/ajaxSubnetMembersFilter.php:108
 msgid "Host"
 msgstr "Hôte"
 
-#: modules/network/network/edithost.php:132
-#: modules/network/network/subnetedithost.php:188
 #: modules/network/network/ajaxZoneRecordsFilter.php:151
+#: modules/network/network/subnetedithost.php:188
+#: modules/network/network/ajaxZoneMembersFilter.php:79
 #: modules/network/network/ajaxSubnetMembersFilter.php:105
+#: modules/network/network/edithost.php:132
 #: modules/network/network/dnsrecords/a.php:26
 #: modules/network/network/dnsrecords/aaaa.php:21
-#: modules/network/network/dnsrecords/custom.php:33
 #: modules/network/network/dnsrecords/loc.php:68
-#: modules/network/network/ajaxZoneMembersFilter.php:79
+#: modules/network/network/dnsrecords/custom.php:33
 msgid "Host name"
 msgstr "Nom de l'hôte"
 
@@ -950,10 +950,10 @@ msgstr ""
 "l'hôte redondant avant de considérer que la connexion a échoué"
 
 #: modules/network/network/subnetedithost.php:194
+#: modules/network/network/ajaxZoneMembersFilter.php:76
 #: modules/network/network/ajaxSubnetMembersFilter.php:101
 #: modules/network/network/dnsrecords/a.php:28
 #: modules/network/network/dnsrecords/a.php:39
-#: modules/network/network/ajaxZoneMembersFilter.php:76
 msgid "IP address"
 msgstr "Adresse IP"
 
@@ -1012,11 +1012,11 @@ msgstr ""
 "Si le nom de domaine est un domaine DNS enregistré, le sous-réseau sera "
 "associé au domaine DNS."
 
+#: modules/network/network/dnsrecords/ds.php:164
+#: modules/network/network/dnsrecords/cert.php:176
 #: modules/network/network/dnsrecords/key.php:249
 #: modules/network/network/dnsrecords/rrsig.php:222
-#: modules/network/network/dnsrecords/cert.php:176
 #: modules/network/network/dnsrecords/sig.php:221
-#: modules/network/network/dnsrecords/ds.php:164
 msgid "Indirect key format"
 msgstr "Format de clé indirect"
 
@@ -1059,21 +1059,21 @@ msgstr "Doit être un nom relatif (ex: %s) ou un FQDN (ex: %s)"
 msgid "It should be relative name (e.g., %s), FQDN (e.g., %s) or %s"
 msgstr "Doit être un nom relatif (ex: %s), un FQDN (ex: %s) ou %s"
 
-#: modules/network/network/dnsrecords/rrsig.php:171
-#: modules/network/network/dnsrecords/rrsig.php:211
-#: modules/network/network/dnsrecords/cert.php:139
-#: modules/network/network/dnsrecords/cert.php:166
-#: modules/network/network/dnsrecords/sig.php:170
-#: modules/network/network/dnsrecords/sig.php:210
 #: modules/network/network/dnsrecords/ds.php:123
 #: modules/network/network/dnsrecords/ds.php:154
+#: modules/network/network/dnsrecords/cert.php:139
+#: modules/network/network/dnsrecords/cert.php:166
+#: modules/network/network/dnsrecords/rrsig.php:171
+#: modules/network/network/dnsrecords/rrsig.php:211
+#: modules/network/network/dnsrecords/sig.php:170
+#: modules/network/network/dnsrecords/sig.php:210
 msgid "Key tag"
 msgstr "Étiquette de clé"
 
-#: modules/network/network/dnsrecords/rrsig.php:173
-#: modules/network/network/dnsrecords/cert.php:141
-#: modules/network/network/dnsrecords/sig.php:172
 #: modules/network/network/dnsrecords/ds.php:125
+#: modules/network/network/dnsrecords/cert.php:141
+#: modules/network/network/dnsrecords/rrsig.php:173
+#: modules/network/network/dnsrecords/sig.php:172
 msgid "Key tag is a decimal number that ranges from 0 to 65535"
 msgstr "L'étiquette de clé est un nombre entier entre 0 et 65535"
 
@@ -1186,8 +1186,8 @@ msgstr "Membres d'une zone"
 msgid "Members of zone %s"
 msgstr "Membres de la zone %s"
 
-#: modules/network/includes/network2.inc.php:188
 #: modules/network/network/dnsrecords/loc.php:302
+#: modules/network/includes/network2.inc.php:188
 msgid "Min.: "
 msgstr "Min.: "
 
@@ -1216,8 +1216,8 @@ msgstr "Modification de l'enregistrement"
 msgid "Month: "
 msgstr "Mois: "
 
-#: modules/network/includes/network2.inc.php:465
 #: modules/network/network/ajaxSubnetFilter.php:32
+#: modules/network/includes/network2.inc.php:465
 msgid "More..."
 msgstr "Plus..."
 
@@ -1241,10 +1241,10 @@ msgstr ""
 "Nom des autres serveurs de nom dans la zone. Ces hôtes doivent exister dans "
 "la zone (enregistrements de type A)."
 
-#: modules/network/network/dnsrecords/ns.php:23
-#: modules/network/network/dnsrecords/ns.php:35
 #: modules/network/network/dnsrecords/soa.php:60
 #: modules/network/network/dnsrecords/soa.php:102
+#: modules/network/network/dnsrecords/ns.php:23
+#: modules/network/network/dnsrecords/ns.php:35
 msgid "Name server"
 msgstr "Serveur de nom"
 
@@ -1265,8 +1265,8 @@ msgstr ""
 "Serveurs de noms Netbios pour les clients Windows, listés par ordre de "
 "préférence. Séparez les adresses des serveurs avec ','."
 
-#: modules/network/network/ajaxSubnetFilter.php:47
 #: modules/network/network/subnetedit.php:208
+#: modules/network/network/ajaxSubnetFilter.php:47
 msgid "Netmask"
 msgstr "Masque de réseau"
 
@@ -1320,8 +1320,8 @@ msgid "Network services log"
 msgstr ""
 
 #: modules/network/infoPackage.inc.php:198
-#: modules/network/network/services.php:28
 #: modules/network/network/localSidebar.php:40
+#: modules/network/network/services.php:28
 msgid "Network services management"
 msgstr "Gestion des services réseaux"
 
@@ -1363,11 +1363,11 @@ msgstr "Pas de clé"
 msgid "Non-zone entity"
 msgstr "Entité hors-zone"
 
+#: modules/network/network/dnsrecords/ds.php:166
+#: modules/network/network/dnsrecords/cert.php:178
 #: modules/network/network/dnsrecords/key.php:251
 #: modules/network/network/dnsrecords/rrsig.php:224
-#: modules/network/network/dnsrecords/cert.php:178
 #: modules/network/network/dnsrecords/sig.php:223
-#: modules/network/network/dnsrecords/ds.php:166
 msgid "OID (Private)"
 msgstr "OID (Privé)"
 
@@ -1475,9 +1475,9 @@ msgstr "Interdit pour l'authentification"
 msgid "Prohibited for confidentiality"
 msgstr "Interdit pour la confidentialité"
 
+#: modules/network/network/dnsrecords/srv.php:112
 #: modules/network/network/dnsrecords/key.php:140
 #: modules/network/network/dnsrecords/key.php:232
-#: modules/network/network/dnsrecords/srv.php:112
 msgid "Protocol"
 msgstr "Protocole"
 
@@ -1493,11 +1493,11 @@ msgstr "Configuration du proxy"
 msgid "RSA"
 msgstr "RSA"
 
+#: modules/network/network/dnsrecords/ds.php:160
+#: modules/network/network/dnsrecords/cert.php:172
 #: modules/network/network/dnsrecords/key.php:245
 #: modules/network/network/dnsrecords/rrsig.php:218
-#: modules/network/network/dnsrecords/cert.php:172
 #: modules/network/network/dnsrecords/sig.php:217
-#: modules/network/network/dnsrecords/ds.php:160
 msgid "RSA/MD5"
 msgstr "RSA/MD5"
 
@@ -1574,8 +1574,8 @@ msgstr "Routeur"
 msgid "S"
 msgstr "S"
 
-#: modules/network/network/dnsrecords/sshfp.php:160
 #: modules/network/network/dnsrecords/ds.php:195
+#: modules/network/network/dnsrecords/sshfp.php:160
 msgid "SHA-1"
 msgstr "SHA-1"
 
@@ -1591,8 +1591,8 @@ msgstr "Empreinte SHA-1"
 msgid "SPKI certificate"
 msgstr "Certificat SPKI"
 
-#: modules/network/includes/network2.inc.php:188
 #: modules/network/network/dnsrecords/loc.php:303
+#: modules/network/includes/network2.inc.php:188
 msgid "Sec.: "
 msgstr "Sec. : "
 
@@ -2148,14 +2148,14 @@ msgstr "URI privée"
 msgid "Unique name update"
 msgstr "Mise à jour du nom unique"
 
+#: modules/network/network/dnsrecords/afsdb.php:112
+#: modules/network/network/dnsrecords/ds.php:199
+#: modules/network/network/dnsrecords/sshfp.php:164
+#: modules/network/network/dnsrecords/cert.php:248
 #: modules/network/network/dnsrecords/key.php:258
 #: modules/network/network/dnsrecords/key.php:277
 #: modules/network/network/dnsrecords/rrsig.php:250
-#: modules/network/network/dnsrecords/afsdb.php:112
-#: modules/network/network/dnsrecords/sshfp.php:164
-#: modules/network/network/dnsrecords/cert.php:248
 #: modules/network/network/dnsrecords/sig.php:230
-#: modules/network/network/dnsrecords/ds.php:199
 msgid "Unknown"
 msgstr "Inconnu"
 
@@ -2291,8 +2291,8 @@ msgstr "Votre nom de zone se résoudra sous cette adresse IP."
 msgid "Zone"
 msgstr "Zone"
 
-#: modules/network/network/editrecord.php:49
 #: modules/network/network/deleterecord.php:41
+#: modules/network/network/editrecord.php:49
 msgid "Zone data was updated. Selected record may be incorrect."
 msgstr ""
 "Les données de la zone ont été mises à jour. L'enregistrement sélectionné "
@@ -2314,17 +2314,17 @@ msgid "cm"
 msgstr "cm"
 
 #: modules/network/network/ajaxRecordTypeContentRequests.php:44
-#: modules/network/network/dnsrecords/key.php:252
-#: modules/network/network/dnsrecords/key.php:271
-#: modules/network/network/dnsrecords/rrsig.php:225
 #: modules/network/network/dnsrecords/afsdb.php:122
+#: modules/network/network/dnsrecords/ds.php:167
 #: modules/network/network/dnsrecords/srv.php:57
 #: modules/network/network/dnsrecords/srv.php:170
 #: modules/network/network/dnsrecords/sshfp.php:150
 #: modules/network/network/dnsrecords/cert.php:180
 #: modules/network/network/dnsrecords/cert.php:200
+#: modules/network/network/dnsrecords/key.php:252
+#: modules/network/network/dnsrecords/key.php:271
+#: modules/network/network/dnsrecords/rrsig.php:225
 #: modules/network/network/dnsrecords/sig.php:224
-#: modules/network/network/dnsrecords/ds.php:167
 #: modules/network/network/editrecord.php:87
 msgid "custom"
 msgstr "personnalisé"

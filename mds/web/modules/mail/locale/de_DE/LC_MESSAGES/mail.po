@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mandriva Directory Server\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-11 15:08+0100\n"
+"POT-Creation-Date: 2017-02-24 11:22+0100\n"
 "PO-Revision-Date: 2016-06-01 17:32+0100\n"
 "Last-Translator: Maik <mwagner@mandriva.com>\n"
 "Language-Team: German <http://translate.mandriva.com/projects/mds-26/mail/"
@@ -25,7 +25,7 @@ msgstr ""
 msgid " The quota of all users of this mail domain have been reset."
 msgstr " Die Quotas aller Nutzer auf dieser Mail Domäne wurden zurückgesetzt."
 
-#: modules/mail/includes/publicFunc.php:394
+#: modules/mail/includes/publicFunc.php:397
 #, php-format
 msgid "%s is not a valid mail alias."
 msgstr "%s ist kein gültiger E-Mail Alias."
@@ -34,7 +34,7 @@ msgstr "%s ist kein gültiger E-Mail Alias."
 msgid "Add Zarafa attributes"
 msgstr "Zarafa Attribute hinzufügen"
 
-#: modules/mail/mainSidebar.php:35 modules/mail/infoPackage.inc.php:66
+#: modules/mail/infoPackage.inc.php:66 modules/mail/mainSidebar.php:35
 msgid "Add a domain"
 msgstr "eine Domäne hinzufügen"
 
@@ -42,8 +42,8 @@ msgstr "eine Domäne hinzufügen"
 msgid "Add a mail domain"
 msgstr "eine E-Mail Domäne hinzufügen"
 
-#: modules/mail/aliases/edit.php:44 modules/mail/mainSidebar.php:46
-#: modules/mail/infoPackage.inc.php:120
+#: modules/mail/aliases/edit.php:44 modules/mail/infoPackage.inc.php:120
+#: modules/mail/mainSidebar.php:46
 msgid "Add a virtual alias"
 msgstr "Ein virtuelles Alias hinzufügen"
 
@@ -59,7 +59,7 @@ msgstr "Mail-Gruppe hinzufügen"
 msgid "Add virtual domain"
 msgstr "Virtuelle-Domain hinzufügen"
 
-#: modules/mail/includes/publicFunc.php:316
+#: modules/mail/includes/publicFunc.php:319
 msgid "Administrator of Zarafa"
 msgstr "Administrator von Zarafa"
 
@@ -180,7 +180,7 @@ msgstr "Domäne löschen"
 msgid "Description"
 msgstr "Beschreibung"
 
-#: modules/mail/includes/auditCodes.php:5 modules/mail/infoPackage.inc.php:43
+#: modules/mail/infoPackage.inc.php:43 modules/mail/includes/auditCodes.php:5
 msgid "Disable mail delivery"
 msgstr "E-Mail-Übermittlung deaktivieren"
 
@@ -220,8 +220,8 @@ msgstr "Aktiviere E-Mail Alias für die Benutzer dieser Gruppe "
 msgid "Enable mail delivery"
 msgstr "E-Mail-Zustellung aktivieren"
 
-#: modules/mail/aliases/ajaxAliasesFilter.php:45
 #: modules/mail/aliases/edit.php:133
+#: modules/mail/aliases/ajaxAliasesFilter.php:45
 msgid "Enabled"
 msgstr "Aktiviert"
 
@@ -229,17 +229,16 @@ msgstr "Aktiviert"
 msgid "External mail addresses"
 msgstr "Externe Mailadressen"
 
-#: modules/mail/includes/publicFunc.php:242
 #: modules/mail/infoPackage.inc.php:103
+#: modules/mail/includes/publicFunc.php:245
 msgid "Forward to"
 msgstr "weiterleiten an"
 
-#: modules/mail/includes/publicFunc.php:270
-#: modules/mail/infoPackage.inc.php:45
+#: modules/mail/infoPackage.inc.php:45 modules/mail/includes/publicFunc.php:273
 msgid "Group mail aliases"
 msgstr "Gruppen Mail alias"
 
-#: modules/mail/includes/publicFunc.php:343
+#: modules/mail/includes/publicFunc.php:346
 msgid "Hide from Zarafa address book"
 msgstr "Vor dem Zarafa-Adressbuch verbergen"
 
@@ -251,8 +250,8 @@ msgstr "Ungültiger Domänenname"
 msgid "Login"
 msgstr "Login"
 
-#: modules/mail/includes/auditCodes.php:23 modules/mail/infoPackage.inc.php:58
-#: modules/mail/infoPackage.inc.php:111
+#: modules/mail/infoPackage.inc.php:58 modules/mail/infoPackage.inc.php:111
+#: modules/mail/includes/auditCodes.php:23
 msgid "Mail"
 msgstr "E-Mail"
 
@@ -260,8 +259,7 @@ msgstr "E-Mail"
 msgid "Mail Group"
 msgstr "E-Mail Gruppe"
 
-#: modules/mail/includes/publicFunc.php:220
-#: modules/mail/infoPackage.inc.php:42
+#: modules/mail/infoPackage.inc.php:42 modules/mail/includes/publicFunc.php:223
 msgid "Mail access"
 msgstr "E-Mail Zugang"
 
@@ -271,8 +269,8 @@ msgstr "E-Mail Adresse"
 
 #: modules/mail/includes/publicFunc.php:78
 #: modules/mail/includes/publicFunc.php:82
-#: modules/mail/includes/publicFunc.php:259
 #: modules/mail/includes/publicFunc.php:262
+#: modules/mail/includes/publicFunc.php:265
 msgid "Mail alias"
 msgstr "E-Mail Alias"
 
@@ -280,32 +278,31 @@ msgstr "E-Mail Alias"
 msgid "Mail aliases"
 msgstr "E-Mail Alias"
 
-#: modules/mail/includes/publicFunc.php:443
+#: modules/mail/includes/publicFunc.php:446
 msgid "Mail attributes added."
 msgstr "Mail-Attribute hinzugefügt."
 
-#: modules/mail/includes/publicFunc.php:515
+#: modules/mail/includes/publicFunc.php:518
 msgid "Mail attributes deleted."
 msgstr "Mail-Attribute gelöscht."
 
-#: modules/mail/includes/publicFunc.php:471
+#: modules/mail/includes/publicFunc.php:474
 msgid "Mail delivery disabled."
 msgstr "Mail-Lieferung deaktiviert."
 
-#: modules/mail/includes/publicFunc.php:475
+#: modules/mail/includes/publicFunc.php:478
 msgid "Mail delivery enabled."
 msgstr "Maillieferung aktiviert."
 
-#: modules/mail/includes/publicFunc.php:209
+#: modules/mail/includes/publicFunc.php:212
 msgid "Mail delivery is disabled"
 msgstr "Mail-Lieferung ist deaktiviert"
 
-#: modules/mail/includes/publicFunc.php:231
+#: modules/mail/includes/publicFunc.php:234
 msgid "Mail delivery is disabled, if checked"
 msgstr "E-Mail Empfang ist deaktiviert wenn aktiviert"
 
-#: modules/mail/includes/publicFunc.php:281
-#: modules/mail/infoPackage.inc.php:46
+#: modules/mail/infoPackage.inc.php:46 modules/mail/includes/publicFunc.php:284
 msgid "Mail delivery path"
 msgstr "Mail Delivery Pfad"
 
@@ -319,7 +316,7 @@ msgstr "E-Mail Domäne"
 msgid "Mail domain is empty. Group mail alias wasn't set."
 msgstr "Maildomain ist leer. Gruppen-Mail-Alias wurde nicht gesetzt."
 
-#: modules/mail/mainSidebar.php:30 modules/mail/infoPackage.inc.php:63
+#: modules/mail/infoPackage.inc.php:63 modules/mail/mainSidebar.php:30
 msgid "Mail domains"
 msgstr "Maildomänen"
 
@@ -327,9 +324,9 @@ msgstr "Maildomänen"
 msgid "Mail domains list"
 msgstr "Maildomänen-Liste"
 
-#: modules/mail/includes/publicFunc.php:246
-#: modules/mail/includes/publicFunc.php:251
 #: modules/mail/infoPackage.inc.php:105
+#: modules/mail/includes/publicFunc.php:249
+#: modules/mail/includes/publicFunc.php:254
 msgid "Mail drop"
 msgstr "E-Mail ignorieren"
 
@@ -338,7 +335,7 @@ msgid "Mail group alias access"
 msgstr "E-Mail alias Gruppen Zugang"
 
 #: modules/mail/includes/publicFunc.php:92
-#: modules/mail/includes/publicFunc.php:302
+#: modules/mail/includes/publicFunc.php:305
 msgid "Mail hidden"
 msgstr "Versteckte E-Mail Adresse"
 
@@ -350,21 +347,20 @@ msgstr "Mailverwaltung"
 msgid "Mail plugin"
 msgstr "E-Mail Plugin"
 
-#: modules/mail/includes/publicFunc.php:187
-#: modules/mail/includes/publicFunc.php:208
+#: modules/mail/includes/publicFunc.php:190
+#: modules/mail/includes/publicFunc.php:211
 msgid "Mail properties"
 msgstr "Mail Eigenschaften"
 
-#: modules/mail/includes/publicFunc.php:289
+#: modules/mail/includes/publicFunc.php:292
 msgid "Mail proxy"
 msgstr "Mailproxy"
 
-#: modules/mail/includes/publicFunc.php:235
+#: modules/mail/includes/publicFunc.php:238
 msgid "Mail quota (in kB)"
 msgstr "E-Mail Quota (in kB)"
 
-#: modules/mail/includes/publicFunc.php:285
-#: modules/mail/infoPackage.inc.php:47
+#: modules/mail/infoPackage.inc.php:47 modules/mail/includes/publicFunc.php:288
 msgid "Mail server host"
 msgstr "E-Mail Server Host"
 
@@ -400,7 +396,7 @@ msgstr "Domain Beschreibung setzen"
 msgid "Set domain quota"
 msgstr "Domain-Quota setzen"
 
-#: modules/mail/includes/publicFunc.php:325
+#: modules/mail/includes/publicFunc.php:328
 msgid "Shared store"
 msgstr "Verteilter Speicher"
 
@@ -420,7 +416,7 @@ msgstr "Die E-Mail Domäne wurde gelöscht."
 msgid "The mail domain has been modified."
 msgstr "Die E-Mail Domäne wurde erfolgreich bearbeitet."
 
-#: modules/mail/includes/publicFunc.php:271
+#: modules/mail/includes/publicFunc.php:274
 msgid "The user is also in these group mail aliases"
 msgstr "Der Benutzer ist auch in diesen Gruppen Mailalias"
 
@@ -481,7 +477,7 @@ msgstr "Name des virtuellen Alias aktualisiert."
 msgid "Virtual alias users updated."
 msgstr "Nutzer des virtuellen Alias aktualisiert."
 
-#: modules/mail/mainSidebar.php:41 modules/mail/infoPackage.inc.php:117
+#: modules/mail/infoPackage.inc.php:117 modules/mail/mainSidebar.php:41
 msgid "Virtual aliases"
 msgstr "Virtuelle Aliase"
 
@@ -489,12 +485,12 @@ msgstr "Virtuelle Aliase"
 msgid "Virtual aliases list"
 msgstr "Virtuelle Aliase Liste"
 
-#: modules/mail/includes/publicFunc.php:409
+#: modules/mail/includes/publicFunc.php:412
 msgid "You must specify a valid mail address to enable mail delivery."
 msgstr ""
 "Sie müssen eine gültige Mail-Adresse angeben um die Zustellung zu aktivieren."
 
-#: modules/mail/includes/publicFunc.php:403
+#: modules/mail/includes/publicFunc.php:406
 msgid ""
 "You must specify at least one mail drop. Usually it has the same name as the "
 "user."
@@ -510,7 +506,7 @@ msgstr "Sie werden das virtuelle Mail-Alias löschen "
 msgid "You will delete the virtual mail domain "
 msgstr "Sie löschen die virtuelle E-Mail Domäne "
 
-#: modules/mail/includes/publicFunc.php:334
+#: modules/mail/includes/publicFunc.php:337
 msgid "Zarafa account"
 msgstr "Zarafa-Konto"
 
@@ -518,11 +514,11 @@ msgstr "Zarafa-Konto"
 msgid "Zarafa group"
 msgstr "Zarafa-Gruppe"
 
-#: modules/mail/includes/publicFunc.php:309
+#: modules/mail/includes/publicFunc.php:312
 msgid "Zarafa properties"
 msgstr "Zarafa-Eigenschaften"
 
-#: modules/mail/includes/publicFunc.php:349
+#: modules/mail/includes/publicFunc.php:352
 msgid "Zarafa send as user list"
 msgstr "Zarafa als User-Liste senden"
 

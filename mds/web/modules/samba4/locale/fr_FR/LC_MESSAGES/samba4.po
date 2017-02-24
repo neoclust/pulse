@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-11 15:09+0200\n"
+"POT-Creation-Date: 2017-02-24 11:22+0100\n"
 "PO-Revision-Date: 2016-06-01 17:32+0100\n"
 "Last-Translator: Jean-François <jfmorcillo@mandriva.com>\n"
 "Language-Team: French <http://translate.mandriva.com/projects/mds-26/samba4/"
@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Poedit 1.6.10\n"
 
-#: modules/samba4/config/index.php:139
+#: modules/samba4/config/index.php:143
 msgid "Activate roaming profiles for all users."
 msgstr "Activer les profiles itinérants pour tous les utilisateurs."
 
@@ -35,7 +35,7 @@ msgstr "Ajouter un nouveau groupe"
 msgid "Add a new user"
 msgstr "Ajout d'un nouvel utilisateur"
 
-#: modules/samba4/shares/edit.php:69 modules/samba4/infoPackage.inc.php:70
+#: modules/samba4/infoPackage.inc.php:70 modules/samba4/shares/edit.php:69
 msgid "Add a share"
 msgstr "Ajouter un partage"
 
@@ -82,8 +82,8 @@ msgstr "Liste des machines"
 msgid "Computer management"
 msgstr "Gestion des machines"
 
-#: modules/samba4/machines/ajaxFilter.php:50
 #: modules/samba4/machines/edit.php:67
+#: modules/samba4/machines/ajaxFilter.php:50
 msgid "Computer name"
 msgstr "Nom de la machine"
 
@@ -103,7 +103,7 @@ msgstr "Gestion des machines"
 msgid "Configuration"
 msgstr "Configuration"
 
-#: modules/samba4/shares/edit.php:188 modules/samba4/machines/edit.php:77
+#: modules/samba4/machines/edit.php:77 modules/samba4/shares/edit.php:188
 msgid "Confirm"
 msgstr "Valider"
 
@@ -115,13 +115,16 @@ msgstr "Créer"
 msgid "Current list of shares"
 msgstr "Liste des partages réseaux"
 
+#: modules/samba4/config/index.php:124
+msgid "DNS forwarder"
+msgstr ""
+
 #: modules/samba4/shares/index.php:85 modules/samba4/views/users.tpl.php:125
 #: modules/samba4/views/groups.tpl.php:125
 msgid "Delete"
 msgstr "Supprimer"
 
-#: modules/samba4/infoPackage.inc.php:114
-#: modules/samba4/machines/delete.php:48
+#: modules/samba4/infoPackage.inc.php:114 modules/samba4/machines/delete.php:48
 msgid "Delete a computer"
 msgstr "Effacer un ordinateur"
 
@@ -133,8 +136,8 @@ msgstr "Supprimer le partage"
 msgid "Delete data"
 msgstr "Effacer les informations"
 
-#: modules/samba4/shares/edit.php:111 modules/samba4/shares/index.php:100
 #: modules/samba4/machines/ajaxFilter.php:56
+#: modules/samba4/shares/index.php:100 modules/samba4/shares/edit.php:111
 msgid "Description"
 msgstr "Description"
 
@@ -142,12 +145,11 @@ msgstr "Description"
 msgid "Disabled"
 msgstr "Désactivé"
 
-#: modules/samba4/config/index.php:103
+#: modules/samba4/config/index.php:102
 msgid "Domain name"
 msgstr "Nom de domaine"
 
-#: modules/samba4/shares/index.php:84
-#: modules/samba4/machines/ajaxFilter.php:57
+#: modules/samba4/machines/ajaxFilter.php:57 modules/samba4/shares/index.php:84
 msgid "Edit"
 msgstr "Éditer"
 
@@ -163,7 +165,7 @@ msgstr "Éditer l'ordinateur"
 msgid "Edit share"
 msgstr "Éditer un partage"
 
-#: modules/samba4/config/index.php:85
+#: modules/samba4/config/index.php:84
 msgid "General options"
 msgstr "Options générales"
 
@@ -199,11 +201,11 @@ msgstr "Machines"
 msgid "Name"
 msgstr "Nom"
 
-#: modules/samba4/config/index.php:155
+#: modules/samba4/config/index.php:159
 msgid "Network path for profiles"
 msgstr "Chemin réseau pour les profils"
 
-#: modules/samba4/shares/edit.php:158 modules/samba4/shares/index.php:99
+#: modules/samba4/shares/index.php:99 modules/samba4/shares/edit.php:158
 msgid "Path"
 msgstr "Chemin"
 
@@ -222,7 +224,7 @@ msgstr ""
 "volume des données dépasse la taille du médium choisi, un jeu de média sera "
 "créé."
 
-#: modules/samba4/config/index.php:191
+#: modules/samba4/config/index.php:195
 msgid "Reload SAMBA configuration"
 msgstr "Recharger SAMBA"
 
@@ -234,7 +236,7 @@ msgstr "Recharger le service SAMBA"
 msgid "Remove a share"
 msgstr "Suppression d'un partage"
 
-#: modules/samba4/config/index.php:190
+#: modules/samba4/config/index.php:194
 msgid "Restart SAMBA"
 msgstr "Redémarrer SAMBA"
 
@@ -242,7 +244,7 @@ msgstr "Redémarrer SAMBA"
 msgid "Restart SAMBA service"
 msgstr "Redémarrer le service SAMBA"
 
-#: modules/samba4/config/index.php:78
+#: modules/samba4/config/index.php:76
 msgid ""
 "SAMBA configuration saved. You may need to reload or restart the SAMBA "
 "service."
@@ -266,7 +268,7 @@ msgstr "Accès Samba"
 msgid "Samba4 properties"
 msgstr "Propriétés de Samba4"
 
-#: modules/samba4/config/index.php:108
+#: modules/samba4/config/index.php:107
 msgid "Server name"
 msgstr "Nom du serveur"
 
@@ -297,7 +299,7 @@ msgstr "Sauvegarde d'un partage"
 msgid "Share enabled"
 msgstr "Partage activé"
 
-#: modules/samba4/config/index.php:127
+#: modules/samba4/config/index.php:131
 msgid "Share user's homes"
 msgstr "Partage des répertoires utilisateurs"
 
@@ -327,7 +329,7 @@ msgstr ""
 msgid "The share %s will be archived."
 msgstr "Le partage %s va être archivé."
 
-#: modules/samba4/config/index.php:156
+#: modules/samba4/config/index.php:160
 msgid "The share must exist and be world-writable."
 msgstr "Le partage doit exister et être en écriture pour tout le monde."
 
@@ -358,7 +360,7 @@ msgstr "Cet utilisateur n'existe pas"
 msgid "UID field has not been submited."
 msgstr "Le champ UID n'a pas été soumis."
 
-#: modules/samba4/config/index.php:138
+#: modules/samba4/config/index.php:142
 msgid "Use network profiles for users"
 msgstr "Profils utilisateur itinérants"
 

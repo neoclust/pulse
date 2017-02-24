@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mandriva Directory Server\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-10 17:18+0100\n"
+"POT-Creation-Date: 2017-02-24 11:22+0100\n"
 "PO-Revision-Date: 2016-06-01 17:32+0100\n"
 "Last-Translator: Andre <andre@mandriva.com>\n"
 "Language-Team: Portuguese (Brazil) <http://translate.mandriva.com/projects/"
@@ -32,8 +32,8 @@ msgstr "Adicionar IP"
 msgid "Add extension"
 msgstr "Adicionar extensão"
 
-#: modules/squid/internet/blackmanager.php:33
 #: modules/squid/internet/whitemanager.php:33
+#: modules/squid/internet/blackmanager.php:33
 msgid "Add keyword or domain"
 msgstr "Adicionar palavra-chave ou domínio"
 
@@ -61,9 +61,9 @@ msgstr ""
 "Autorizar páginas para o domínio ou contendo a palavra-chave. Substitui a "
 "lista negra. Caracteres especiais não são permitidos (? * # & ())."
 
-#: modules/squid/infoPackage.inc.php:35
-#: modules/squid/internet/blackmanager.php:32
 #: modules/squid/internet/localSidebar.php:25
+#: modules/squid/internet/blackmanager.php:32
+#: modules/squid/infoPackage.inc.php:35
 msgid "Blacklist"
 msgstr "Lista Negra"
 
@@ -86,8 +86,8 @@ msgstr ""
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: modules/squid/internet/accesslog.php:44
 #: modules/squid/internet/accesslog/index.php:44
+#: modules/squid/internet/accesslog.php:44
 msgid "Default Position"
 msgstr "Posição inicial"
 
@@ -127,9 +127,9 @@ msgstr "Extensão"
 msgid "Extension added."
 msgstr "Extensão adicionada."
 
-#: modules/squid/infoPackage.inc.php:44
 #: modules/squid/internet/extmanager.php:32
-#: modules/squid/internet/localSidebar.php:26
+#: modules/squid/internet/localSidebar.php:27
+#: modules/squid/infoPackage.inc.php:44
 msgid "Extension blacklist"
 msgstr "Extensões bloqueadas"
 
@@ -137,18 +137,18 @@ msgstr "Extensões bloqueadas"
 msgid "Failed to reload the Squid service."
 msgstr "O serviço squid falhou ao reiniciar."
 
-#: modules/squid/internet/accesslog.php:88
 #: modules/squid/internet/accesslog/index.php:88
+#: modules/squid/internet/accesslog.php:88
 msgid "Hide different paths"
 msgstr "Esconder caminhos diferentes"
 
-#: modules/squid/internet/accesslog.php:95
 #: modules/squid/internet/accesslog/index.php:95
+#: modules/squid/internet/accesslog.php:95
 msgid "Hide different sub domains"
 msgstr "Esconder subdominíos diferentes"
 
-#: modules/squid/internet/accesslog.php:50
 #: modules/squid/internet/accesslog/index.php:50
+#: modules/squid/internet/accesslog.php:50
 msgid "IP"
 msgstr "IP"
 
@@ -160,9 +160,9 @@ msgstr "IP adicionado."
 msgid "IP address"
 msgstr "Endereço IP"
 
-#: modules/squid/infoPackage.inc.php:47
+#: modules/squid/internet/localSidebar.php:33
 #: modules/squid/internet/machmanager.php:32
-#: modules/squid/internet/localSidebar.php:29
+#: modules/squid/infoPackage.inc.php:47
 msgid "IP whitelist"
 msgstr "IP Lista Branca"
 
@@ -182,8 +182,8 @@ msgstr "Item adicionado a lista branca"
 msgid "Item deleted."
 msgstr "Item removido."
 
-#: modules/squid/internet/blackmanager.php:38
 #: modules/squid/internet/whitemanager.php:38
+#: modules/squid/internet/blackmanager.php:38
 msgid "Keyword or domain"
 msgstr "Palavra-chave ou domínio"
 
@@ -215,13 +215,13 @@ msgstr "Lista de palavras-chave ou domínios bloqueados"
 msgid "Not a valid extension."
 msgstr "Não é uma extensão valida."
 
-#: modules/squid/internet/accesslog.php:43
 #: modules/squid/internet/accesslog/index.php:43
+#: modules/squid/internet/accesslog.php:43
 msgid "Opacity"
 msgstr "Transparência"
 
-#: modules/squid/internet/accesslog.php:74
 #: modules/squid/internet/accesslog/index.php:74
+#: modules/squid/internet/accesslog.php:74
 msgid "Pause"
 msgstr "Pause"
 
@@ -234,18 +234,18 @@ msgstr ""
 "listas negras. O intervalo de tempo deve ser no formato de 24 horas. (Por "
 "exemplo: 08:00-18:00)"
 
-#: modules/squid/includes/manager.php:43 modules/squid/includes/delete.php:30
-#: modules/squid/infoPackage.inc.php:30
+#: modules/squid/infoPackage.inc.php:30 modules/squid/includes/manager.php:43
+#: modules/squid/includes/delete.php:30
 msgid "Proxy"
 msgstr "Proxy"
 
-#: modules/squid/internet/accesslog.php:58
 #: modules/squid/internet/accesslog/index.php:58
+#: modules/squid/internet/accesslog.php:58
 msgid "Refresh rate"
 msgstr "Taxa de atualização"
 
-#: modules/squid/internet/accesslog.php:56
 #: modules/squid/internet/accesslog/index.php:56
+#: modules/squid/internet/accesslog.php:56
 msgid "Reset"
 msgstr "Limpar"
 
@@ -253,8 +253,8 @@ msgstr "Limpar"
 msgid "Restart service"
 msgstr "Reiniciar o serviço"
 
-#: modules/squid/internet/blackmanager.php:36
 #: modules/squid/internet/whitemanager.php:36
+#: modules/squid/internet/blackmanager.php:36
 msgid "Special characters not allowed."
 msgstr "Caracteres especiais não são permitidos."
 
@@ -274,24 +274,24 @@ msgstr "Intervalo de tempo adicionado."
 msgid "Time range is not valid."
 msgstr "Intervalo de tempo não é válido."
 
-#: modules/squid/infoPackage.inc.php:41
+#: modules/squid/internet/localSidebar.php:31
 #: modules/squid/internet/timemanager.php:32
-#: modules/squid/internet/localSidebar.php:28
+#: modules/squid/infoPackage.inc.php:41
 msgid "Time range whitelist"
 msgstr "Intervalo de tempo"
 
-#: modules/squid/internet/accesslog.php:52
 #: modules/squid/internet/accesslog/index.php:52
+#: modules/squid/internet/accesslog.php:52
 msgid "Url"
 msgstr "URL"
 
-#: modules/squid/internet/accesslog.php:48
 #: modules/squid/internet/accesslog/index.php:48
+#: modules/squid/internet/accesslog.php:48
 msgid "User"
 msgstr "Usuário"
 
-#: modules/squid/internet/accesslog.php:115
 #: modules/squid/internet/accesslog/index.php:115
+#: modules/squid/internet/accesslog.php:115
 msgid "Verify logs..."
 msgstr "Verificando logs..."
 
@@ -299,9 +299,9 @@ msgstr "Verificando logs..."
 msgid "Web Proxy Content filter"
 msgstr "Proxy filtro de conteúdo web"
 
-#: modules/squid/infoPackage.inc.php:38
-#: modules/squid/internet/localSidebar.php:27
 #: modules/squid/internet/whitemanager.php:32
+#: modules/squid/internet/localSidebar.php:29
+#: modules/squid/infoPackage.inc.php:38
 msgid "Whitelist"
 msgstr "Lista Branca"
 

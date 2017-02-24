@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-10 17:18+0100\n"
+"POT-Creation-Date: 2017-02-24 11:22+0100\n"
 "PO-Revision-Date: 2016-06-01 17:32+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,8 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.6.10\n"
 
-#: modules/radius/includes/publicFunc.php:61
 #: modules/radius/infoPackage.inc.php:34
+#: modules/radius/includes/publicFunc.php:61
 msgid "Calling Station ID"
 msgstr ""
 
@@ -34,8 +34,8 @@ msgstr ""
 msgid "Radius attributes updated."
 msgstr ""
 
-#: modules/radius/includes/publicFunc.php:44
 #: modules/radius/infoPackage.inc.php:29
+#: modules/radius/includes/publicFunc.php:44
 msgid "Radius management"
 msgstr ""
 

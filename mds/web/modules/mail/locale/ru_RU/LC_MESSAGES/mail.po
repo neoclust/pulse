@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mandriva Directory Server\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-02-11 15:08+0100\n"
+"POT-Creation-Date: 2017-02-24 11:22+0100\n"
 "PO-Revision-Date: 2016-06-01 17:32+0100\n"
 "Last-Translator: Buildbot Mandriva <buildbot@mandriva.com>\n"
 "Language-Team: Russian (Russia) (http://transifex.mandriva.com/projects/p/"
@@ -28,7 +28,7 @@ msgstr ""
 "Квота почтовых ящиков всех пользователей этого почтового домена была "
 "установлена в значение по умолчанию."
 
-#: modules/mail/includes/publicFunc.php:394
+#: modules/mail/includes/publicFunc.php:397
 #, php-format
 msgid "%s is not a valid mail alias."
 msgstr "%s не верный почтовый псевдоним."
@@ -37,7 +37,7 @@ msgstr "%s не верный почтовый псевдоним."
 msgid "Add Zarafa attributes"
 msgstr "Добавить атрибуты Zarafa"
 
-#: modules/mail/mainSidebar.php:35 modules/mail/infoPackage.inc.php:66
+#: modules/mail/infoPackage.inc.php:66 modules/mail/mainSidebar.php:35
 msgid "Add a domain"
 msgstr "Добавить домен"
 
@@ -45,8 +45,8 @@ msgstr "Добавить домен"
 msgid "Add a mail domain"
 msgstr "Добавить почтовый домен"
 
-#: modules/mail/aliases/edit.php:44 modules/mail/mainSidebar.php:46
-#: modules/mail/infoPackage.inc.php:120
+#: modules/mail/aliases/edit.php:44 modules/mail/infoPackage.inc.php:120
+#: modules/mail/mainSidebar.php:46
 msgid "Add a virtual alias"
 msgstr ""
 
@@ -62,7 +62,7 @@ msgstr "Добавить почтовую группу"
 msgid "Add virtual domain"
 msgstr "Добавить виртуальный домен"
 
-#: modules/mail/includes/publicFunc.php:316
+#: modules/mail/includes/publicFunc.php:319
 msgid "Administrator of Zarafa"
 msgstr "Администратор Zarafa "
 
@@ -186,7 +186,7 @@ msgstr "Удалить домен"
 msgid "Description"
 msgstr "Описание"
 
-#: modules/mail/includes/auditCodes.php:5 modules/mail/infoPackage.inc.php:43
+#: modules/mail/infoPackage.inc.php:43 modules/mail/includes/auditCodes.php:5
 msgid "Disable mail delivery"
 msgstr "Отключить доставку почты"
 
@@ -226,8 +226,8 @@ msgstr "Включить почтовый псевдоним для пользо
 msgid "Enable mail delivery"
 msgstr "Включить отчёт о доставке почты"
 
-#: modules/mail/aliases/ajaxAliasesFilter.php:45
 #: modules/mail/aliases/edit.php:133
+#: modules/mail/aliases/ajaxAliasesFilter.php:45
 msgid "Enabled"
 msgstr ""
 
@@ -235,17 +235,16 @@ msgstr ""
 msgid "External mail addresses"
 msgstr ""
 
-#: modules/mail/includes/publicFunc.php:242
 #: modules/mail/infoPackage.inc.php:103
+#: modules/mail/includes/publicFunc.php:245
 msgid "Forward to"
 msgstr "Переслать по адресу(ам)"
 
-#: modules/mail/includes/publicFunc.php:270
-#: modules/mail/infoPackage.inc.php:45
+#: modules/mail/infoPackage.inc.php:45 modules/mail/includes/publicFunc.php:273
 msgid "Group mail aliases"
 msgstr ""
 
-#: modules/mail/includes/publicFunc.php:343
+#: modules/mail/includes/publicFunc.php:346
 msgid "Hide from Zarafa address book"
 msgstr ""
 
@@ -257,8 +256,8 @@ msgstr "Неверное имя домена"
 msgid "Login"
 msgstr "Пользователь"
 
-#: modules/mail/includes/auditCodes.php:23 modules/mail/infoPackage.inc.php:58
-#: modules/mail/infoPackage.inc.php:111
+#: modules/mail/infoPackage.inc.php:58 modules/mail/infoPackage.inc.php:111
+#: modules/mail/includes/auditCodes.php:23
 msgid "Mail"
 msgstr "почта"
 
@@ -266,8 +265,7 @@ msgstr "почта"
 msgid "Mail Group"
 msgstr "Почтовая группа"
 
-#: modules/mail/includes/publicFunc.php:220
-#: modules/mail/infoPackage.inc.php:42
+#: modules/mail/infoPackage.inc.php:42 modules/mail/includes/publicFunc.php:223
 msgid "Mail access"
 msgstr "Доступ к почте"
 
@@ -277,8 +275,8 @@ msgstr "Почтовый адрес"
 
 #: modules/mail/includes/publicFunc.php:78
 #: modules/mail/includes/publicFunc.php:82
-#: modules/mail/includes/publicFunc.php:259
 #: modules/mail/includes/publicFunc.php:262
+#: modules/mail/includes/publicFunc.php:265
 msgid "Mail alias"
 msgstr "Почтовый псевдоним"
 
@@ -286,32 +284,31 @@ msgstr "Почтовый псевдоним"
 msgid "Mail aliases"
 msgstr "Почтовые псевдонимы"
 
-#: modules/mail/includes/publicFunc.php:443
+#: modules/mail/includes/publicFunc.php:446
 msgid "Mail attributes added."
 msgstr ""
 
-#: modules/mail/includes/publicFunc.php:515
+#: modules/mail/includes/publicFunc.php:518
 msgid "Mail attributes deleted."
 msgstr ""
 
-#: modules/mail/includes/publicFunc.php:471
+#: modules/mail/includes/publicFunc.php:474
 msgid "Mail delivery disabled."
 msgstr ""
 
-#: modules/mail/includes/publicFunc.php:475
+#: modules/mail/includes/publicFunc.php:478
 msgid "Mail delivery enabled."
 msgstr ""
 
-#: modules/mail/includes/publicFunc.php:209
+#: modules/mail/includes/publicFunc.php:212
 msgid "Mail delivery is disabled"
 msgstr ""
 
-#: modules/mail/includes/publicFunc.php:231
+#: modules/mail/includes/publicFunc.php:234
 msgid "Mail delivery is disabled, if checked"
 msgstr "Отключить доставку почты"
 
-#: modules/mail/includes/publicFunc.php:281
-#: modules/mail/infoPackage.inc.php:46
+#: modules/mail/infoPackage.inc.php:46 modules/mail/includes/publicFunc.php:284
 msgid "Mail delivery path"
 msgstr "Путь доставки почты"
 
@@ -325,7 +322,7 @@ msgstr "Почтовый домен"
 msgid "Mail domain is empty. Group mail alias wasn't set."
 msgstr ""
 
-#: modules/mail/mainSidebar.php:30 modules/mail/infoPackage.inc.php:63
+#: modules/mail/infoPackage.inc.php:63 modules/mail/mainSidebar.php:30
 msgid "Mail domains"
 msgstr ""
 
@@ -333,9 +330,9 @@ msgstr ""
 msgid "Mail domains list"
 msgstr ""
 
-#: modules/mail/includes/publicFunc.php:246
-#: modules/mail/includes/publicFunc.php:251
 #: modules/mail/infoPackage.inc.php:105
+#: modules/mail/includes/publicFunc.php:249
+#: modules/mail/includes/publicFunc.php:254
 msgid "Mail drop"
 msgstr "Сброс почты"
 
@@ -344,7 +341,7 @@ msgid "Mail group alias access"
 msgstr "Использовать почтовый псевдоним группы"
 
 #: modules/mail/includes/publicFunc.php:92
-#: modules/mail/includes/publicFunc.php:302
+#: modules/mail/includes/publicFunc.php:305
 #, fuzzy
 msgid "Mail hidden"
 msgstr "Почтовый адрес"
@@ -357,21 +354,20 @@ msgstr ""
 msgid "Mail plugin"
 msgstr "Модуль почты"
 
-#: modules/mail/includes/publicFunc.php:187
-#: modules/mail/includes/publicFunc.php:208
+#: modules/mail/includes/publicFunc.php:190
+#: modules/mail/includes/publicFunc.php:211
 msgid "Mail properties"
 msgstr ""
 
-#: modules/mail/includes/publicFunc.php:289
+#: modules/mail/includes/publicFunc.php:292
 msgid "Mail proxy"
 msgstr ""
 
-#: modules/mail/includes/publicFunc.php:235
+#: modules/mail/includes/publicFunc.php:238
 msgid "Mail quota (in kB)"
 msgstr "Квота почтового ящика (kB)"
 
-#: modules/mail/includes/publicFunc.php:285
-#: modules/mail/infoPackage.inc.php:47
+#: modules/mail/infoPackage.inc.php:47 modules/mail/includes/publicFunc.php:288
 msgid "Mail server host"
 msgstr "узел почтового сервера"
 
@@ -407,7 +403,7 @@ msgstr "Установить описание домена"
 msgid "Set domain quota"
 msgstr "Установить квоту домена"
 
-#: modules/mail/includes/publicFunc.php:325
+#: modules/mail/includes/publicFunc.php:328
 msgid "Shared store"
 msgstr "Хранилище общего доступа"
 
@@ -427,7 +423,7 @@ msgstr "Почтовый домен был удален."
 msgid "The mail domain has been modified."
 msgstr "Почтовый домен изменен."
 
-#: modules/mail/includes/publicFunc.php:271
+#: modules/mail/includes/publicFunc.php:274
 msgid "The user is also in these group mail aliases"
 msgstr ""
 
@@ -488,7 +484,7 @@ msgstr ""
 msgid "Virtual alias users updated."
 msgstr ""
 
-#: modules/mail/mainSidebar.php:41 modules/mail/infoPackage.inc.php:117
+#: modules/mail/infoPackage.inc.php:117 modules/mail/mainSidebar.php:41
 msgid "Virtual aliases"
 msgstr ""
 
@@ -496,12 +492,12 @@ msgstr ""
 msgid "Virtual aliases list"
 msgstr ""
 
-#: modules/mail/includes/publicFunc.php:409
+#: modules/mail/includes/publicFunc.php:412
 msgid "You must specify a valid mail address to enable mail delivery."
 msgstr ""
 "Вы должны указать правильный почтовый адрес для включения доставки почты."
 
-#: modules/mail/includes/publicFunc.php:403
+#: modules/mail/includes/publicFunc.php:406
 msgid ""
 "You must specify at least one mail drop. Usually it has the same name as the "
 "user."
@@ -515,7 +511,7 @@ msgstr ""
 msgid "You will delete the virtual mail domain "
 msgstr "Вы удалите виртуальный почтовый домен"
 
-#: modules/mail/includes/publicFunc.php:334
+#: modules/mail/includes/publicFunc.php:337
 msgid "Zarafa account"
 msgstr "Аккаунт Zarafa"
 
@@ -523,11 +519,11 @@ msgstr "Аккаунт Zarafa"
 msgid "Zarafa group"
 msgstr "Группа Zarafa"
 
-#: modules/mail/includes/publicFunc.php:309
+#: modules/mail/includes/publicFunc.php:312
 msgid "Zarafa properties"
 msgstr "Свойства Zarafa "
 
-#: modules/mail/includes/publicFunc.php:349
+#: modules/mail/includes/publicFunc.php:352
 msgid "Zarafa send as user list"
 msgstr "Отправить Zarafa как список пользователей"
 
