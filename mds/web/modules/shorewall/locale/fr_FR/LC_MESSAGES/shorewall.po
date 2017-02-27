@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: Mandriva Directory Server\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-24 11:22+0100\n"
-"PO-Revision-Date: 2016-06-01 17:32+0100\n"
-"Last-Translator: Jean-Philippe <jpbraun@mandriva.com>\n"
+"PO-Revision-Date: 2017-02-27 15:25+0100\n"
+"Last-Translator: Nicolas Lécureuil <neoclust@mageia.org>\n"
 "Language-Team: French <http://translate.mandriva.com/projects/mds-26/"
 "shorewall/fr_FR/>\n"
 "Language: fr_FR\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.8.12\n"
 
 #: modules/shorewall/shorewall/dnat_rules.php:124
 #: modules/shorewall/shorewall/rules.php:140
@@ -190,22 +190,19 @@ msgstr "Réseau interne"
 
 #: modules/shorewall/includes/errorHandling.php:43
 msgid "Invalid IP"
-msgstr ""
+msgstr "Adresse IP invalide"
 
 #: modules/shorewall/includes/errorHandling.php:50
-#, fuzzy
 msgid "Invalid IP range"
-msgstr "Plage de port invalide"
+msgstr "Plage d'adresse IP invalide"
 
 #: modules/shorewall/includes/errorHandling.php:57
-#, fuzzy
 msgid "Invalid network"
-msgstr "Réseau interne"
+msgstr "Réseau invalide"
 
 #: modules/shorewall/includes/errorHandling.php:64
-#, fuzzy
 msgid "Invalid network masq"
-msgstr "Réseau interne"
+msgstr "Masque de réseau invalide"
 
 #: modules/shorewall/includes/errorHandling.php:29
 msgid "Invalid port number"
@@ -216,14 +213,12 @@ msgid "Invalid port range"
 msgstr "Plage de port invalide"
 
 #: modules/shorewall/shorewall/rules.php:236
-#, fuzzy
 msgid "Limit destination IP(s)"
-msgstr "IP de destination"
+msgstr "IP(s) de destination"
 
 #: modules/shorewall/shorewall/rules.php:206
-#, fuzzy
 msgid "Limit source IP(s)"
-msgstr "IP(s) source"
+msgstr "IP(s) Source"
 
 #: modules/shorewall/shorewall/localSidebar.php:52
 #: modules/shorewall/infoPackage.inc.php:112
@@ -346,11 +341,11 @@ msgstr "Zone source"
 
 #: modules/shorewall/includes/errorHandling.php:44
 msgid "The IP address is not correct."
-msgstr ""
+msgstr "L'adresse IP n'est pas valide"
 
 #: modules/shorewall/includes/errorHandling.php:51
 msgid "The IP range is not correct."
-msgstr ""
+msgstr "La plage d'IP n'est pas valide"
 
 #: modules/shorewall/shorewall/dnat_rules.php:235
 msgid ""
@@ -360,11 +355,11 @@ msgstr ""
 
 #: modules/shorewall/includes/errorHandling.php:58
 msgid "The network is not correct."
-msgstr ""
+msgstr "Le réseau n'est pas valide"
 
 #: modules/shorewall/includes/errorHandling.php:65
 msgid "The network masq is not correct."
-msgstr ""
+msgstr "Le masque de réseau n'est pas valide"
 
 #: modules/shorewall/shorewall/dnat_rules.php:115
 #: modules/shorewall/shorewall/rules.php:131

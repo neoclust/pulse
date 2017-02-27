@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Mandriva Directory Server\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-24 11:22+0100\n"
-"PO-Revision-Date: 2016-06-01 17:32+0100\n"
+"PO-Revision-Date: 2017-02-27 10:27+0100\n"
 "Last-Translator: Jean-Philippe <jpbraun@mandriva.com>\n"
 "Language-Team: French <http://translate.mandriva.com/projects/mds-26/squid/"
 "fr_FR/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.8.12\n"
 
 #: modules/squid/includes/manager.php:91
 msgid "Add"
@@ -139,9 +139,8 @@ msgstr "Erreur lors du redémarrage du service."
 
 #: modules/squid/internet/accesslog/index.php:88
 #: modules/squid/internet/accesslog.php:88
-#, fuzzy
 msgid "Hide different paths"
-msgstr "Cacher les chemins"
+msgstr "Cacher les chemins différents"
 
 #: modules/squid/internet/accesslog/index.php:95
 #: modules/squid/internet/accesslog.php:95

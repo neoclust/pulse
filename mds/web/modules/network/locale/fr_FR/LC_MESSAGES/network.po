@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Mandriva Directory Server\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-24 11:22+0100\n"
-"PO-Revision-Date: 2016-06-01 17:32+0100\n"
-"Last-Translator: Jean-François <jfmorcillo@mandriva.com>\n"
+"PO-Revision-Date: 2017-02-27 16:38+0100\n"
+"Last-Translator: Nicolas Lécureuil <neoclust@mageia.org>\n"
 "Language-Team: French <http://translate.mandriva.com/projects/mds-26/network/"
 "fr_FR/>\n"
 "Language: fr_FR\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.8.12\n"
 
 #: modules/network/network/edit.php:46
 #, php-format
@@ -78,7 +78,7 @@ msgstr "Ajout d'un enregistrement CNAME"
 
 #: modules/network/infoPackage.inc.php:164
 msgid "Add DHCP pool range"
-msgstr ""
+msgstr "Ajouter des plages d'adresse DHCP"
 
 #: modules/network/network/localSidebar.php:35
 msgid "Add DHCP subnet"
@@ -333,7 +333,7 @@ msgstr "L'algorithme personnalisé n'est pas défini"
 
 #: modules/network/network/dnsrecords/key.php:18
 msgid "Custom algorithm is not set"
-msgstr ""
+msgstr "Algorithme personnalisé non défini"
 
 #: modules/network/network/dnsrecords/ds.php:98
 msgid "Custom digest type"
@@ -358,7 +358,7 @@ msgstr "Protocole personnalisé"
 
 #: modules/network/network/dnsrecords/key.php:16
 msgid "Custom protocol is not set"
-msgstr ""
+msgstr "Protocole personnalisé non défini"
 
 #: modules/network/network/dnsrecords/srv.php:120
 msgid "Custom protocol name"
@@ -366,7 +366,7 @@ msgstr "Nom de protocole personnalisé"
 
 #: modules/network/network/dnsrecords/srv.php:16
 msgid "Custom protocol name is required"
-msgstr ""
+msgstr "Le nom du protocole personnalisé est requis"
 
 #: modules/network/network/dnsrecords/rrsig.php:136
 #: modules/network/network/dnsrecords/sig.php:135
@@ -747,7 +747,7 @@ msgstr "Édition d'une zone DNS"
 
 #: modules/network/infoPackage.inc.php:120
 msgid "Edit a DNS host"
-msgstr ""
+msgstr "Éditer un hôte DNS"
 
 #: modules/network/infoPackage.inc.php:124
 msgid "Edit a DNS record"
@@ -903,7 +903,7 @@ msgstr "Nom d'hôte incorrect"
 
 #: modules/network/network/dnsrecords/srv.php:20
 msgid "Host name that will provide this service is required"
-msgstr ""
+msgstr "le Nom de l'hôte qui fournira ce service est requis"
 
 #: modules/network/network/edithost.php:60
 msgid "Host successfully added to DNS zone and corresponding reverse zone."
@@ -1301,23 +1301,23 @@ msgstr "Préfixe réseau"
 
 #: modules/network/infoPackage.inc.php:214
 msgid "Network service reload"
-msgstr ""
+msgstr "Recharger le service réseau"
 
 #: modules/network/infoPackage.inc.php:218
 msgid "Network service restart"
-msgstr ""
+msgstr "Redémarrer le service reseau"
 
 #: modules/network/infoPackage.inc.php:206
 msgid "Network service start"
-msgstr ""
+msgstr "Démarrer le service réseau"
 
 #: modules/network/infoPackage.inc.php:210
 msgid "Network service stop"
-msgstr ""
+msgstr "Arrêter le service réseau"
 
 #: modules/network/infoPackage.inc.php:202
 msgid "Network services log"
-msgstr ""
+msgstr "Journaux du service réseau"
 
 #: modules/network/infoPackage.inc.php:198
 #: modules/network/network/localSidebar.php:40
@@ -1632,7 +1632,7 @@ msgstr "Service"
 
 #: modules/network/network/dnsrecords/srv.php:18
 msgid "Service name is required"
-msgstr ""
+msgstr "Le nom du service est requis"
 
 #: modules/network/network/dnsrecords/srv.php:163
 msgid "Service port"
@@ -1738,7 +1738,7 @@ msgstr "La signature n'est pas configurée"
 
 #: modules/network/network/dnsrecords/key.php:23
 msgid "Signature is not set"
-msgstr ""
+msgstr "La signature n'est pas définie"
 
 #: modules/network/network/subnetedit.php:285
 msgid ""
